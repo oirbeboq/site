@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.vite/
+.DS_Store
+
+# media (IMPORTANT if you had big files)
+*.mp4
+*.mov
+*.webm
+*.zip
+public/media/
+src/media/
