@@ -25,10 +25,10 @@ const projects = [
         title: "Tuntum",
         category: "character",
         media: [
-        { type: "image", src: "/proj/tuntum/0.png" },
-        { type: "image", src: "/proj/tuntum/main.webp" },
-        { type: "image", src: "/proj/tuntum/closeup.webp" },
-        { type: "image", src: "/proj/tuntum/bts.webp" },
+        { type: "image", src: "/site/proj/tuntum/0.png" },
+        { type: "image", src: "/site/proj/tuntum/main.webp" },
+        { type: "image", src: "/site/proj/tuntum/closeup.webp" },
+        { type: "image", src: "/site/proj/tuntum/bts.webp" },
         ]
     },
     {
