@@ -1,0 +1,277 @@
+const projects = [
+    /*
+    {image:"proj/tuntum/0.png", link:"test.html"},
+    {image:"proj/beelzebub/0.png", link:"#.html"},
+    {image:"proj/ball-hog/0.jpg", link:"#.html"},
+    {image:"proj/noise-room-station/0.png", link:"#.html"},
+    {image:"proj/noise-room/0.png", link:"#.html"},
+    {image:"proj/heavy-tank/00.png", link:"#.html"},
+    {image:"proj/canfly/0.png", link:"#.html"},
+    {image: "proj/bobotown/0.png", link:"#.html"},
+    {image:"proj/shams-song/0.png", link:"#.html"},
+    {image:"proj/bywin-uniforum/00.png", link:"#.html"}
+    
+    {
+        title: "Tuntum",
+        images: [
+        "/proj/tuntum/0.png",
+        "/proj/tuntum/main.webp",
+        "/proj/tuntum/closeup.webp",
+        "/proj/tuntum/bts.webp"
+        ]
+    },
+    */
+    {
+        title: "Tuntum",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/tuntum/0.png" },
+        { type: "image", src: "/proj/tuntum/main.webp" },
+        { type: "image", src: "/proj/tuntum/closeup.webp" },
+        { type: "image", src: "/proj/tuntum/bts.webp" },
+        ]
+    },
+    {
+        title: "Beelzebub",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/beelzebub/0.png" },
+        { type: "image", src: "/proj/beelzebub/00.png"},
+        { type: "image", src: "/proj/beelzebub/1.jpg"},
+        { type: "image", src: "/proj/beelzebub/2.jpg"},
+        { type: "image", src: "/proj/beelzebub/3.jpg"},
+        { type: "image", src: "/proj/beelzebub/4.jpg"},
+  
+        ]
+    },
+    {
+        title: "Ball Hog",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/ball-hog/0.jpg" },
+        { type: "image", src: "/proj/ball-hog/1.jpg" },
+        { type: "image", src: "/proj/ball-hog/2.jpg" },
+        { type: "image", src: "/proj/ball-hog/3.jpg" },
+        ]
+    },
+    {
+        title: "Noise Room",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/noise-room/0.png" },
+        { type: "video", src: "/proj/noise-room/video.mp4" },
+        { type: "image", src: "/proj/noise-room/1.png" },
+        { type: "image", src: "/proj/noise-room/2.png" },
+        { type: "image", src: "/proj/noise-room/3.png" },
+        { type: "video", src: "/proj/noise-room/video2.mp4" },
+        ]
+    },
+    {
+        title: "Boogie Woogie",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/heavy-tank/00.png" },
+        { type: "video", src: "/proj/heavy-tank/boogie@attack.mp4" },
+        { type: "video", src: "/proj/heavy-tank/boogie@walk.mp4" },
+        { type: "video", src: "/proj/heavy-tank/boogie@emote.mp4" },
+        { type: "image", src: "/proj/heavy-tank/1.png" },
+        { type: "image", src: "/proj/heavy-tank/2.png" },
+        ]
+    },
+    {
+        title: "Sou Can Fly",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/canfly/0.png" },
+        { type: "video", src: "/proj/canfly/video1.mp4" },
+        { type: "video", src: "/proj/canfly/video2.mp4" },
+        { type: "image", src: "/proj/canfly/1.jpg" },
+        { type: "image", src: "/proj/canfly/2.jpg" },
+        { type: "image", src: "/proj/canfly/3.jpg" },
+        ]
+    },
+
+    {
+        title: "Shams Song",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/shams-song/0.png" },
+        { type: "video", src: "/proj/shams-song/video1.mp4" },
+        { type: "image", src: "/proj/shams-song/1.png" },
+        { type: "image", src: "/proj/shams-song/2.png" },
+        { type: "image", src: "/proj/shams-song/3.png" },
+        { type: "image", src: "/proj/shams-song/4.png" },
+        { type: "image", src: "/proj/shams-song/5.png" },
+        { type: "image", src: "/proj/shams-song/6.png" },
+        { type: "image", src: "/proj/shams-song/storyboard.png" },
+        
+        ]
+    },
+
+     {
+        title: "Bywi Uniforum",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/bywin-uniforum/00.png" },
+        { type: "video", src: "/proj/bywin-uniforum/video1.mp4" },
+        { type: "video", src: "/proj/bywin-uniforum/video2.mp4" },
+        { type: "video", src: "/proj/bywin-uniforum/video3.mp4" },
+        { type: "image", src: "/proj/bywin-uniforum/1.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/2.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/3.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/4.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/5.webp" },
+        ]
+    },
+
+    {
+        title: "Bobo Town",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/bobotown/0.png" },
+        { type: "image", src: "/proj/bobotown/1.png" },
+        { type: "image", src: "/proj/bobotown/2.png" },
+        { type: "image", src: "/proj/bobotown/3.png" },
+        { type: "image", src: "/proj/bobotown/4.png" },
+        { type: "image", src: "/proj/bobotown/5.png" },
+        { type: "image", src: "/proj/bobotown/6.png" },
+        ]
+    },
+
+    {
+        title: "Addae",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/addae/0.jpg" },
+        { type: "image", src: "/proj/addae/1.jpg" },
+        { type: "image", src: "/proj/addae/2.jpg" },
+        { type: "image", src: "/proj/addae/3.jpg" },
+        ]
+    },
+
+    {
+        title: "Flyer",
+        media: [
+        { type: "image", src: "/proj/flyers/0.png" },
+        { type: "image", src: "/proj/flyers/1.webp" },
+        { type: "image", src: "/proj/flyers/2.webp" },
+        ]
+    },
+    {
+        title: "Pixelizing",
+        media: [
+        { type: "image", src: "/proj/pixelizing/0.png" },
+        { type: "image", src: "/proj/pixelizing/1.jpg" },
+        { type: "image", src: "/proj/pixelizing/2.jpg" },
+        { type: "image", src: "/proj/pixelizing/3.jpg" },
+        ]
+    },
+
+     {
+        title: "watergun",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/watergun/0.png" },
+        { type: "image", src: "/proj/watergun/1.jpg" },
+        { type: "image", src: "/proj/watergun/2.jpg" },
+        ]
+    },
+    {
+        title: "faces",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/faces/0.png" },
+        { type: "image", src: "/proj/faces/1.png" },
+        { type: "image", src: "/proj/faces/2.png" },
+        { type: "image", src: "/proj/faces/3.png" },
+        { type: "image", src: "/proj/faces/4.png" },
+        { type: "image", src: "/proj/faces/5.png" },
+        { type: "image", src: "/proj/faces/6.png" },
+        { type: "image", src: "/proj/faces/7.png" },
+        { type: "image", src: "/proj/faces/8.png" },
+        { type: "image", src: "/proj/faces/9.png" },
+        { type: "image", src: "/proj/faces/10.png" },
+    
+        ]
+    },
+    {
+        title: "FU",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/Fu/0.png" },
+        { type: "image", src: "/proj/Fu/1.jpg" },
+        { type: "image", src: "/proj/Fu/2.jpg" },
+        { type: "image", src: "/proj/Fu/3.jpg" },
+        ]
+    },
+    {
+        title: "box",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/boxhead/0.png" },
+        { type: "image", src: "/proj/boxhead1.jpg" },
+        { type: "image", src: "/proj/boxhead/2.jpg" },
+        { type: "image", src: "/proj/boxhead/3.jpg" },
+        ]
+    },
+    {
+        title: "Adrenaline",
+        category:"game",
+        media: [
+        { type: "image", src: "/proj/adrenaline/0.png" },
+        { type: "image", src: "/proj/adrenaline/1.jpg" },
+        { type: "image", src: "/proj/adrenaline/2.jpg" },
+        { type: "image", src: "/proj/adrenaline/3.jpg" },
+        ]
+    },
+     {
+        title: "Redressing",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/redressing/0.png" },
+        { type: "image", src: "/proj/redressing/1.png" },
+        { type: "image", src: "/proj/redressing/2.png" },
+        { type: "image", src: "/proj/redressing/3.png" },
+        { type: "image", src: "/proj/redressing/4.png" },
+        { type: "image", src: "/proj/redressing/5.png" },
+       
+        
+        ]
+    },
+    {
+        title: "Skame",
+        category: "game",
+        media: [
+        { type: "image", src: "/proj/skame/0.png" },
+        { type: "video", src: "/proj/skame/video1.mp4" },
+        { type: "image", src: "/proj/skame/2.jpg" },
+        { type: "image", src: "/proj/skame/3.jpg" },
+        ]
+    },
+    {
+        title: "umi",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/umi/0.png" },
+        { type: "image", src: "/proj/umi/1.jpg" },
+        { type: "image", src: "/proj/umi/2.jpg" },
+        ]
+    },
+    {
+        title: "cardgame",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/cardgame/0.png" },
+        { type: "image", src: "/proj/cardgame/1.png" },
+        { type: "image", src: "/proj/cardgame/2.png" },
+        ]
+    },
+    
+    
+
+    
+
+
+]
+
+export default projects;
