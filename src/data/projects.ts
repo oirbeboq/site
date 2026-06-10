@@ -234,7 +234,7 @@ const projects: Project[] = [
         category: "game",
         media: [
         { type: "image", src: "/proj/skame/0.png" },
-        { type: "video", src: "/proj/skame/video1.mp4" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200220854?h=3e57e649bc"  },
         { type: "image", src: "/proj/skame/2.jpg" },
         { type: "image", src: "/proj/skame/3.jpg" },
         ]
@@ -249,15 +249,6 @@ const projects: Project[] = [
         ]
     },
     {
-        title: "cardgame",
-        category: "character",
-        media: [
-        { type: "image", src: "/proj/cardgame/0.png" },
-        { type: "image", src: "/proj/cardgame/1.png" },
-        { type: "image", src: "/proj/cardgame/2.png" },
-        ]
-    },
-    {
         title: "parker",
         category: "character",
         media: [
@@ -266,6 +257,35 @@ const projects: Project[] = [
         { type: "image", src: "/proj/parker/2.png" },
         ]
     },
+    {
+        title: "break like a baby",
+        category: "game",
+        media: [
+        { type: "image", src: "/proj/breaklikebaby/0.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200216293?h=09337aeeca"},
+        { type: "image", src: "/proj/breaklikebaby/1.png" },
+        { type: "image", src: "/proj/breaklikebaby/2.png" },
+        ]
+    },
+    {
+        title: "cardgame",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/cardgame/0.png" },
+        { type: "image", src: "/proj/cardgame/1.png" },
+        { type: "image", src: "/proj/cardgame/2.png" },
+        ]
+    },
+     {
+        title: "black",
+        category: "game",
+        media: [
+        { type: "image", src: "/proj/black/0.png" },
+        { type: "image", src: "/proj/black/0.png" },
+        { type: "image", src: "/proj/black/0.png" },
+        ]
+    },
+    
     
 ]
 
