@@ -1,37 +1,6 @@
-/*import GalleryItem from "./GalleryItem";
-import projects from "./data/projects.js";
-
-function Gallery(){
-    return(
-        <div className="grid-container">
-            {projects.map((project,index) => (
-                <GalleryItem
-                    key={index}
-                    image={project.image}
-                    link={project.link}
-                />
-            ))}
-        </div>
-    );
-}
-
-export default Gallery;
-*/
-
-
 
 import { useState } from "react";
-import projects from "./data/projects.ts";
-
-type MediaItem ={
-    src: string;
-    type: string;
-}
-type Project = {
-    title?: string;
-    category?: string;
-    media: MediaItem[];
-}
+import projects, {type Project, type MediaItem} from "./data/projects.ts";
 
 
 function Gallery() {
@@ -46,7 +15,7 @@ function Gallery() {
     const safeIndex =
     selected ? Math.min(index, selected.media.length - 1) : 0;
 
-    const current =
+    const current: MediaItem | null =
     selected ? selected.media[safeIndex] : null;
 
     const[hovered, setHovered] = useState<number |null>(null);
@@ -187,6 +156,24 @@ function Gallery() {
           >
             {/* MEDIA (1-based → index - 1) */}
             <div className="media-frame">
+                {current?.type === "image" ? (
+                    <img src={current.src}/>
+                ) : current?.type === "video" ? (
+                    <video key={current.src} autoPlay loop controls>
+                        <source src= {current.src} type="video/mp4"/>
+                    </video>
+                ) : current?.type ==="vimeo" ?(
+                    <iframe
+                        className="vimeo-frame"
+                        src={current.src + "?autoplay=1"}
+                        allow="autoplay; fullscreen; picture-in-picture; 
+                        clipboard-write; encrypted-media; web-share"   
+                        allowFullScreen
+                    />
+                ): null
+                }
+                
+                {/*}
                 {current && (current.type === "image" ? (
                     <img src={current.src} />
                     ) : (
@@ -198,6 +185,8 @@ function Gallery() {
                     </video>
                     )
                 )}
+                */}
+
             </div>
         {/* CAROUSEL */}
         

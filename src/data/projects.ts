@@ -1,26 +1,15 @@
-const projects = [
-    /*
-    {image:"proj/tuntum/0.png", link:"test.html"},
-    {image:"proj/beelzebub/0.png", link:"#.html"},
-    {image:"proj/ball-hog/0.jpg", link:"#.html"},
-    {image:"proj/noise-room-station/0.png", link:"#.html"},
-    {image:"proj/noise-room/0.png", link:"#.html"},
-    {image:"proj/heavy-tank/00.png", link:"#.html"},
-    {image:"proj/canfly/0.png", link:"#.html"},
-    {image: "proj/bobotown/0.png", link:"#.html"},
-    {image:"proj/shams-song/0.png", link:"#.html"},
-    {image:"proj/bywin-uniforum/00.png", link:"#.html"}
-    
-    {
-        title: "Tuntum",
-        images: [
-        "/proj/tuntum/0.png",
-        "/proj/tuntum/main.webp",
-        "/proj/tuntum/closeup.webp",
-        "/proj/tuntum/bts.webp"
-        ]
-    },
-    */
+export type MediaItem = {
+    src: string;
+    type: "image" | "video" | "vimeo";
+};
+
+export type Project = {
+    title : string;
+    category?: string;
+    media: MediaItem[];
+};
+
+const projects: Project[] = [
     {
         title: "Tuntum",
         category: "character",
@@ -59,11 +48,11 @@ const projects = [
         category: "animation",
         media: [
         { type: "image", src: "/proj/noise-room/0.png" },
-        { type: "video", src: "/proj/noise-room/video.mp4" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200163442?h=31d49aee7e" },
         { type: "image", src: "/proj/noise-room/1.png" },
         { type: "image", src: "/proj/noise-room/2.png" },
         { type: "image", src: "/proj/noise-room/3.png" },
-        { type: "video", src: "/proj/noise-room/video2.mp4" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200179841?h=1b9c26aff7"},
         ]
     },
     {
@@ -151,6 +140,7 @@ const projects = [
 
     {
         title: "Flyer",
+        category: "character",
         media: [
         { type: "image", src: "/proj/flyers/0.png" },
         { type: "image", src: "/proj/flyers/1.webp" },
@@ -159,6 +149,7 @@ const projects = [
     },
     {
         title: "Pixelizing",
+        category:"character",
         media: [
         { type: "image", src: "/proj/pixelizing/0.png" },
         { type: "image", src: "/proj/pixelizing/1.jpg" },
@@ -266,12 +257,16 @@ const projects = [
         { type: "image", src: "/proj/cardgame/2.png" },
         ]
     },
+    {
+        title: "parker",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/parker/0.png" },
+        { type: "image", src: "/proj/parker/1.png" },
+        { type: "image", src: "/proj/parker/2.png" },
+        ]
+    },
     
-    
-
-    
-
-
 ]
 
 export default projects;
