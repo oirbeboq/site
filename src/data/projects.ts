@@ -72,11 +72,12 @@ const projects: Project[] = [
         category: "animation",
         media: [
         { type: "image", src: "/proj/canfly/0.png" },
-        { type: "video", src: "/proj/canfly/video1.mp4" },
-        { type: "video", src: "/proj/canfly/video2.mp4" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200480356?h=b079d8d77d"  },
+        { type: "image", src: "/proj/canfly/11.png" },
+        { type: "image", src: "/proj/canfly/22.png" },
         { type: "image", src: "/proj/canfly/1.jpg" },
         { type: "image", src: "/proj/canfly/2.jpg" },
-        { type: "image", src: "/proj/canfly/3.jpg" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200482833?h=8ba27acf90" },
         ]
     },
 
@@ -85,7 +86,7 @@ const projects: Project[] = [
         category: "animation",
         media: [
         { type: "image", src: "/proj/shams-song/0.png" },
-        { type: "video", src: "/proj/shams-song/video1.mp4" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200495602?h=24a7650761"},
         { type: "image", src: "/proj/shams-song/1.png" },
         { type: "image", src: "/proj/shams-song/2.png" },
         { type: "image", src: "/proj/shams-song/3.png" },
@@ -200,9 +201,9 @@ const projects: Project[] = [
         category: "character",
         media: [
         { type: "image", src: "/proj/boxhead/0.png" },
-        { type: "image", src: "/proj/boxhead1.jpg" },
-        { type: "image", src: "/proj/boxhead/2.jpg" },
-        { type: "image", src: "/proj/boxhead/3.jpg" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200488003?h=8d8ce627d9" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200488447?h=ec11835c0a" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200491052?h=166f41cf6a" },
         ]
     },
     {

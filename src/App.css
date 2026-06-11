@@ -18,17 +18,13 @@ body {
 }
 
 #page-title {
-  position: fixed;
-  top: max(20px, env(safe-area-inset-bottom));
-  left: 50%;
+  margin: 20px auto 0;
+  width: fit-content;
   border-radius: 12px;
-  width:fit-content;
   background-color: rgb(29,29,31);
-  transform: translateX(-50%);
   display: flex;
   text-align: center;
   font-size: 50px;
-  z-index: 999;
 } 
 
 #main-wrapper {
@@ -257,6 +253,7 @@ body {
   border: none;
   border-radius: 12px;
   display: block;
+  
 }
 
 .controls{
