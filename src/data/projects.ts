@@ -127,15 +127,13 @@ const projects: Project[] = [
         { type: "image", src: "/proj/bobotown/6.png" },
         ]
     },
-
     {
-        title: "Addae",
+        title: "her",
         category: "character",
         media: [
-        { type: "image", src: "/proj/addae/0.jpg" },
-        { type: "image", src: "/proj/addae/1.jpg" },
-        { type: "image", src: "/proj/addae/2.jpg" },
-        { type: "image", src: "/proj/addae/3.jpg" },
+        { type: "image", src: "/proj/her/0.png" },
+        { type: "image", src: "/proj/her/1.png" },
+        { type: "image", src: "/proj/her/0.png" },
         ]
     },
 
@@ -284,6 +282,16 @@ const projects: Project[] = [
         { type: "image", src: "/proj/black/0.png" },
         { type: "image", src: "/proj/black/0.png" },
         { type: "image", src: "/proj/black/0.png" },
+        ]
+    },
+    {
+        title: "Addae",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/addae/0.jpg" },
+        { type: "image", src: "/proj/addae/1.jpg" },
+        { type: "image", src: "/proj/addae/2.jpg" },
+        { type: "image", src: "/proj/addae/3.jpg" },
         ]
     },
     
