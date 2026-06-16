@@ -140,7 +140,8 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/her/0.png" },
         { type: "image", src: "/proj/her/1.png" },
-        { type: "image", src: "/proj/her/2.png" },
+        { type: "image", src: "/proj/her/2.png" }, 
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201774366?h=827570e690"},
         ]
     },
 
@@ -209,6 +210,7 @@ const projects: Project[] = [
         { type: "vimeo", src: "https://player.vimeo.com/video/1200488003?h=8d8ce627d9" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1200488447?h=ec11835c0a" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1200491052?h=166f41cf6a" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201740561?h=843d4ff538" },
         ]
     },
     {
@@ -239,7 +241,7 @@ const projects: Project[] = [
         title: "Skame",
         category: "game",
         media: [
-        { type: "image", src: "/proj/skame/0.png" },
+        { type: "image", src: "/proj/skame/00.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1200220854?h=3e57e649bc"  },
         { type: "image", src: "/proj/skame/2.jpg" },
         { type: "image", src: "/proj/skame/3.jpg" },

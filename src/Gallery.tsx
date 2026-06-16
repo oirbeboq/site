@@ -46,78 +46,78 @@ function Gallery() {
         ))}
       </div>
 
-      {/* NOTCH */}
-      {!selected && (<div className="notch">
-        {/*GALLERY MENu */}
-        <div className="menu-wrapper"
-            onMouseEnter={() => 
-                {setGalleryOpen(!galleryOpen);
-                setInfoOpen(false);
-               
-            }}
-            onMouseLeave={() =>
-                {setGalleryOpen(false);
-            }}
-            onClick={() =>{
-                 setActivePage('gallery');
-            }}>
-            <button className={`notch-btn ${activePage === "gallery" ? "active" : ""}`}>
-                Gallery
-            </button>
-
-            {galleryOpen && (
-            <div className="gallery-menu"
-                onClick ={(e) => e.stopPropagation()}>
-                <button 
-                onClick={() => {setCategory("all");
-                    setGalleryOpen(false);
-                    setActivePage("gallery");
-                }}>
-                    All
-                </button>
-
-                <button 
-                onClick={() => {setCategory("animation");
-                    setGalleryOpen(false);
-                    setActivePage("gallery");
-                }}>
-                    Animations
-                </button>
-
-                <button
-                onClick={() => {setCategory("character");
-                    setGalleryOpen(false);
-                    setActivePage("gallery");
-                }}>
-                    Characters
-                </button>
-
-                <button
-                onClick={() => {setCategory("game");
-                    setGalleryOpen(false);
-                    setActivePage("gallery");
-                }}>
-                    Games
-                </button>
-            </div>
-            )}
-
-        </div>
-
-        
-        <div className="menu-wrapper"
-            onMouseEnter={() =>
-                {setInfoOpen(!infoOpen); 
-                setGalleryOpen(false);}}
-            onMouseLeave={() => 
-                {setInfoOpen(false)}}
+        {/* NOTCH */}
+        {!selected && (<div className="notch">
+            {/*GALLERY MENu */}
+            <div className="menu-wrapper"
+                onMouseEnter={() => 
+                    {setGalleryOpen(!galleryOpen);
+                    setInfoOpen(false);
                 
-            onClick={() =>{
-                 setActivePage('info');
-            }}>
-             <button className={`notch-btn ${activePage === "info" ? "active" : ""}`}>
-                 Info
-            </button>
+                }}
+                onMouseLeave={() =>
+                    {setGalleryOpen(false);
+                }}
+                onClick={() =>{
+                    setActivePage('gallery');
+                }}>
+                <button className={`notch-btn ${activePage === "gallery" ? "active" : ""}`}>
+                    Gallery
+                </button>
+
+                {galleryOpen && (
+                <div className="gallery-menu"
+                    onClick ={(e) => e.stopPropagation()}>
+                    <button 
+                    onClick={() => {setCategory("all");
+                        setGalleryOpen(false);
+                        setActivePage("gallery");
+                    }}>
+                        All
+                    </button>
+
+                    <button 
+                    onClick={() => {setCategory("animation");
+                        setGalleryOpen(false);
+                        setActivePage("gallery");
+                    }}>
+                        Animations
+                    </button>
+
+                    <button
+                    onClick={() => {setCategory("character");
+                        setGalleryOpen(false);
+                        setActivePage("gallery");
+                    }}>
+                        Characters
+                    </button>
+
+                    <button
+                    onClick={() => {setCategory("game");
+                        setGalleryOpen(false);
+                        setActivePage("gallery");
+                    }}>
+                        Games
+                    </button>
+                </div>
+                )}
+
+            </div>
+
+            
+            <div className="menu-wrapper"
+                onMouseEnter={() =>
+                    {setInfoOpen(!infoOpen); 
+                    setGalleryOpen(false);}}
+                onMouseLeave={() => 
+                    {setInfoOpen(false)}}
+                    
+                onClick={() =>{
+                    setActivePage('info');
+                }}>
+                <button className={`notch-btn ${activePage === "info" ? "active" : ""}`}>
+                    Info
+                </button>
 
             {(galleryOpen || infoOpen) &&(
             <div className="menu-overlay">
@@ -126,19 +126,22 @@ function Gallery() {
             {infoOpen &&(
             <div className="info-menu"
                 onClick ={(e) => e.stopPropagation()}>
-                <button onClick={() =>{
+                <a 
+                    href="/archive"
+                    onClick={() =>{
                     setInfoOpen(false);
                     setActivePage("info");
                 }}>
                     Archive
-                </button>
+                </a>
 
-                <button onClick={() =>{
+                <a href="/about"
+                    onClick={() =>{
                     setInfoOpen(false);
                     setActivePage("info");
                 }}>
                     About me
-                </button>
+                </a>
             </div>
             )}
       </div>

@@ -12,7 +12,7 @@
 }
 
 body {
-  background: rgb(29,29,31);
+  background: #080808;
   color: white;
   font-family: "CustomFont", sans-serif;
 }
@@ -21,7 +21,6 @@ body {
   margin: 20px auto 0;
   width: fit-content;
   border-radius: 12px;
-  background-color: rgb(29,29,31);
   display: flex;
   text-align: center;
   font-size: 50px;
@@ -136,10 +135,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  font-family: inherit;
   padding: 10px 6px;
   border-radius: 12px;
-
+  font-size: 15px;
   background: transparent;
   border: none;
   color: rgb(162, 162, 162);
@@ -198,21 +197,30 @@ body {
 }
 
 .gallery-menu button, 
-.info-menu button{
+.info-menu a{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
   padding: 10px 14px;
   border-radius: 12px;
-
+  font-family: inherit;
   background: transparent;
   border: none;
   color: rgb(162, 162, 162);
-
+  font-size: 15px;
   cursor: pointer;
   transition: 0.2s ease;
   
+  text-decoration: none;
+  text-align: center;
+  line-height: 1;
+  cursor:pointer;
 }
 
 .gallery-menu button:hover,
-.info-menu button:hover{
+.info-menu a:hover{
   transform: translateY(-1px);
   color: #fff;
 }
