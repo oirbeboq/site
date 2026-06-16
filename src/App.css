@@ -365,6 +365,32 @@ body {
 }
 
 
+/*ABOUT PAGE */
+
+.aboutpage-main-container{
+  /*border: 2px dotted blue;*/
+  background-color: #101010;
+
+  width: 70vw;
+  height: 90vh;
+  border-radius: 15px;
+  padding: 15px 15px;
+}
+
+.profile-image img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  display:block;
+  margin: 0 auto;
+}
+.bio{
+  text-align: center;
+  font-family: inherit;
+}
+
 
 
 

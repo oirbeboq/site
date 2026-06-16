@@ -1,11 +1,18 @@
 
 import { useState } from "react";
-import projects, {type Project, type MediaItem} from "./data/projects.ts";
+import {type Project, type MediaItem} from "./data/projects.ts";
+import { useParams } from "react-router-dom";
+
+export type GalleryProps = {
+    selected: Project | null;
+    setSelected: React.Dispatch<React.SetStateAction<Project | null>>;
+    projects: Project[];
+}
 
 
-function Gallery() {
-    const [selected, setSelected] = useState<Project | null>(null);
-    const [index, setIndex] = useState(0); // 🔥 1-based
+function Gallery({selected, setSelected, projects}: GalleryProps) {
+   
+    const [index, setIndex] = useState(0); //  1-based
 
     const openModal = (projects:Project) => {
         setSelected(projects);
@@ -20,15 +27,12 @@ function Gallery() {
 
     const[hovered, setHovered] = useState<number |null>(null);
     
-    const [galleryOpen, setGalleryOpen] = useState(false);
-    const [category, setCategory] = useState("all");
-
-    const filteredProjects = category === "all" ?
+  
+    const {category} = useParams();
+    const filteredProjects = !category || category === "all" ?
     projects : projects.filter(p => p.category === category);
 
-    const [infoOpen, setInfoOpen] = useState(false);
 
-    const [activePage, setActivePage] = useState("gallery");
 
 
   return (
@@ -45,109 +49,8 @@ function Gallery() {
           </div>
         ))}
       </div>
-
-        {/* NOTCH */}
-        {!selected && (<div className="notch">
-            {/*GALLERY MENu */}
-            <div className="menu-wrapper"
-                onMouseEnter={() => 
-                    {setGalleryOpen(!galleryOpen);
-                    setInfoOpen(false);
-                
-                }}
-                onMouseLeave={() =>
-                    {setGalleryOpen(false);
-                }}
-                onClick={() =>{
-                    setActivePage('gallery');
-                }}>
-                <button className={`notch-btn ${activePage === "gallery" ? "active" : ""}`}>
-                    Gallery
-                </button>
-
-                {galleryOpen && (
-                <div className="gallery-menu"
-                    onClick ={(e) => e.stopPropagation()}>
-                    <button 
-                    onClick={() => {setCategory("all");
-                        setGalleryOpen(false);
-                        setActivePage("gallery");
-                    }}>
-                        All
-                    </button>
-
-                    <button 
-                    onClick={() => {setCategory("animation");
-                        setGalleryOpen(false);
-                        setActivePage("gallery");
-                    }}>
-                        Animations
-                    </button>
-
-                    <button
-                    onClick={() => {setCategory("character");
-                        setGalleryOpen(false);
-                        setActivePage("gallery");
-                    }}>
-                        Characters
-                    </button>
-
-                    <button
-                    onClick={() => {setCategory("game");
-                        setGalleryOpen(false);
-                        setActivePage("gallery");
-                    }}>
-                        Games
-                    </button>
-                </div>
-                )}
-
-            </div>
-
-            
-            <div className="menu-wrapper"
-                onMouseEnter={() =>
-                    {setInfoOpen(!infoOpen); 
-                    setGalleryOpen(false);}}
-                onMouseLeave={() => 
-                    {setInfoOpen(false)}}
-                    
-                onClick={() =>{
-                    setActivePage('info');
-                }}>
-                <button className={`notch-btn ${activePage === "info" ? "active" : ""}`}>
-                    Info
-                </button>
-
-            {(galleryOpen || infoOpen) &&(
-            <div className="menu-overlay">
-       
-            {/* INFO MENU */}
-            {infoOpen &&(
-            <div className="info-menu"
-                onClick ={(e) => e.stopPropagation()}>
-                <a 
-                    href="/archive"
-                    onClick={() =>{
-                    setInfoOpen(false);
-                    setActivePage("info");
-                }}>
-                    Archive
-                </a>
-
-                <a href="/about"
-                    onClick={() =>{
-                    setInfoOpen(false);
-                    setActivePage("info");
-                }}>
-                    About me
-                </a>
-            </div>
-            )}
-      </div>
-     )}
-        </div>
-      </div>)}
+        
+      
         
     
       {/* MODAL */}
@@ -244,4 +147,5 @@ function Gallery() {
 }
 
 export default Gallery;
+
 
