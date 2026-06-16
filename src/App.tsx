@@ -1,10 +1,10 @@
 import "./App.css";
-import Gallery from "./Gallery";
+import { useState } from "react";
 import { Routes, Route} from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import AboutPage  from "./AboutPage";
-import { useState } from "react";
+import Gallery from "./Gallery";
 import projects, {type Project} from "./data/projects.ts";
 
 function App(){
