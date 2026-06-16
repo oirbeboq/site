@@ -154,6 +154,13 @@ function Gallery() {
             className="modal-content"
             onClick={(e) => e.stopPropagation()}
           >
+            <button 
+            className="close-btn"
+            onClick={() => setSelected(null)}
+            aria-label="close modal"
+            >
+                x
+            </button>
             {/* MEDIA (1-based → index - 1) */}
             <div className="media-frame">
                 {current?.type === "image" ? (

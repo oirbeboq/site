@@ -26,7 +26,7 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/beelzebub/0.png" },
         { type: "image", src: "/proj/beelzebub/00.png"},
-        { type: "image", src: "/proj/beelzebub/1.jpg"},
+        { type: "image", src: "/proj/beelzebub/1.png"},
         { type: "image", src: "/proj/beelzebub/2.jpg"},
         { type: "image", src: "/proj/beelzebub/3.jpg"},
         { type: "image", src: "/proj/beelzebub/4.jpg"},
@@ -41,6 +41,7 @@ const projects: Project[] = [
         { type: "image", src: "/proj/ball-hog/1.jpg" },
         { type: "image", src: "/proj/ball-hog/2.jpg" },
         { type: "image", src: "/proj/ball-hog/3.jpg" },
+        { type: "image", src: "/proj/ball-hog/4.png" },
         ]
     },
     {
@@ -60,9 +61,9 @@ const projects: Project[] = [
         category: "character",
         media: [
         { type: "image", src: "/proj/heavy-tank/00.png" },
-        { type: "video", src: "/proj/heavy-tank/boogie@attack.mp4" },
-        { type: "video", src: "/proj/heavy-tank/boogie@walk.mp4" },
-        { type: "video", src: "/proj/heavy-tank/boogie@emote.mp4" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201552257?h=802ac53158"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201552256?h=b1a05acb5f"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201552255?h=133ed8b17a" },
         { type: "image", src: "/proj/heavy-tank/1.png" },
         { type: "image", src: "/proj/heavy-tank/2.png" },
         ]
@@ -103,14 +104,19 @@ const projects: Project[] = [
         category: "animation",
         media: [
         { type: "image", src: "/proj/bywin-uniforum/00.png" },
-        { type: "video", src: "/proj/bywin-uniforum/video1.mp4" },
-        { type: "video", src: "/proj/bywin-uniforum/video2.mp4" },
-        { type: "video", src: "/proj/bywin-uniforum/video3.mp4" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201721351?h=a15ddd73fe"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201721350?h=6f33e172ac" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201721352?h=c081c24a75"  },
         { type: "image", src: "/proj/bywin-uniforum/1.webp" },
         { type: "image", src: "/proj/bywin-uniforum/2.webp" },
         { type: "image", src: "/proj/bywin-uniforum/3.webp" },
         { type: "image", src: "/proj/bywin-uniforum/4.webp" },
         { type: "image", src: "/proj/bywin-uniforum/5.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/6.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/7.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/8.png" },
+        { type: "image", src: "/proj/bywin-uniforum/9.png" },
+        { type: "image", src: "/proj/bywin-uniforum/10.png" },
         ]
     },
 
@@ -125,6 +131,7 @@ const projects: Project[] = [
         { type: "image", src: "/proj/bobotown/4.png" },
         { type: "image", src: "/proj/bobotown/5.png" },
         { type: "image", src: "/proj/bobotown/6.png" },
+        { type: "image", src: "/proj/bobotown/7.png" },
         ]
     },
     {
@@ -133,7 +140,7 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/her/0.png" },
         { type: "image", src: "/proj/her/1.png" },
-        { type: "image", src: "/proj/her/0.png" },
+        { type: "image", src: "/proj/her/2.png" },
         ]
     },
 
@@ -209,7 +216,7 @@ const projects: Project[] = [
         category:"game",
         media: [
         { type: "image", src: "/proj/adrenaline/0.png" },
-        { type: "image", src: "/proj/adrenaline/1.jpg" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201705245?h=c6b8bf8cbd"},
         { type: "image", src: "/proj/adrenaline/2.jpg" },
         { type: "image", src: "/proj/adrenaline/3.jpg" },
         ]
@@ -280,7 +287,7 @@ const projects: Project[] = [
         category: "game",
         media: [
         { type: "image", src: "/proj/black/0.png" },
-        { type: "image", src: "/proj/black/0.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201709482?h=3ba0e2b35d" },
         { type: "image", src: "/proj/black/0.png" },
         ]
     },
