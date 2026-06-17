@@ -457,7 +457,17 @@ body {
 .bio-container{
   text-align: center;
   font-family: inherit;
+  color: white;
+}
+
+.desc-container{
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
   color: #7e7e7e;
+  /*border: 2px dotted red;*/
+
 }
 
 .tools-container{
@@ -466,6 +476,8 @@ body {
   align-items: center;
   text-align: center;
   font-family: inherit;
+
+  padding-top: 100px;
 }
 
 .contact-container{
@@ -498,7 +510,7 @@ ul{
   list-style-type: none;
   margin:0;
   padding: 0;
-  color: #7e7e7e;
+   color: #484848;
   
 }
 

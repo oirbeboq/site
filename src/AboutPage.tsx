@@ -9,7 +9,11 @@ export default function AboutPage() {
             </div>
             <div 
                 className="bio-container">
-                   <p>my name is animation and i make randy make games.</p> 
+                   <p>my name is animation and i make randy make games.</p>
+                   <p className ="desc-container"> Randy Addaé Manu is a Multi-faceted digital artist based in
+                        New York. He specializes in game design,
+                        visual development, & animation 
+                    </p>
 
             </div>
             <div 
@@ -30,10 +34,11 @@ export default function AboutPage() {
                         <li>Aseprite</li>
                         <li>Blender</li>
                         <li>Clip Studio Paint</li>
+                        <li>Toon Boom Harmony</li>
                         <li>Unity</li>
                         <li>Unreal Engine</li>
                         <li>Procreate</li>
-                        <li>Toon Boom Harmony</li>
+                        
                         
 
                         
