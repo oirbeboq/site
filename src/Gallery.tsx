@@ -2,6 +2,7 @@
 import { useState } from "react";
 import {type Project, type MediaItem} from "./data/projects.ts";
 import { useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 export type GalleryProps = {
     selected: Project | null;
@@ -31,6 +32,16 @@ function Gallery({selected, setSelected, projects}: GalleryProps) {
     const {category} = useParams();
     const filteredProjects = !category || category === "all" ?
     projects : projects.filter(p => p.category === category);
+
+    const [isMobile, setIsMobile]= useState(window.innerWidth < 700);
+
+    useEffect(() => {
+        const onResize = () => setIsMobile(window.innerWidth < 700);
+        window.addEventListener("resize", onResize);
+        return() => window.removeEventListener("resize", onResize);
+    }, []);
+    
+
 
 
 
@@ -69,6 +80,27 @@ function Gallery({selected, setSelected, projects}: GalleryProps) {
             </button>
             {/* MEDIA (1-based → index - 1) */}
             <div className="media-frame">
+                {isMobile ? (
+                    selected.media.slice(1).map((item, i) => (
+                    <div key={i} className="mobile-media-item">
+                        {item.type === "image" ? (
+                        <img src={item.src} alt="" />
+                        ) : item.type === "video" ? (
+                        <video controls>
+                            <source src={item.src} type="video/mp4" />
+                        </video>
+                        ) : item.type === "vimeo" ? (
+                        <iframe
+                            className="vimeo-frame"
+                            src={item.src}
+                            allow="autoplay; fullscreen; picture-in-picture"
+                            allowFullScreen
+                        />
+                        ) : null}
+                    </div>
+                    ))
+                ) : (
+                <>
                 {current?.type === "image" ? (
                     <img src={current.src}/>
                 ) : current?.type === "video" ? (
@@ -83,39 +115,27 @@ function Gallery({selected, setSelected, projects}: GalleryProps) {
                         clipboard-write; encrypted-media; web-share"   
                         allowFullScreen
                     />
-                ): null
-                }
-                
-                {/*}
-                {current && (current.type === "image" ? (
-                    <img src={current.src} />
-                    ) : (
-                    <video key={current.src}autoPlay loop controls>
-                        <source
-                        src={current.src}
-                        type="video/mp4"
-                        />
-                    </video>
-                    )
+                ): null}
+                </>
                 )}
-                */}
 
             </div>
         {/* CAROUSEL */}
         
             {/* CONTROLS */}
-            <div className="controls">
-                <button
-                    className={`nav-btn ${index === 1 ? "disabled" : ""}`}
-                    disabled={index === 1}
-                    onClick={() =>
-                        setIndex((prev) =>
-                        prev > 1 ? prev - 1 : prev
-                        )
-                    }
-                    >
-                    &lt;
-                </button>
+            {!isMobile && (
+                <div className="controls">
+                    <button
+                        className={`nav-btn ${index === 1 ? "disabled" : ""}`}
+                        disabled={index === 1}
+                        onClick={() =>
+                            setIndex((prev) =>
+                            prev > 1 ? prev - 1 : prev
+                            )
+                        }
+                        >
+                        &lt;
+                    </button>
 
               <span className="counter">
                 {index} / {selected.media.length - 1}
@@ -139,6 +159,7 @@ function Gallery({selected, setSelected, projects}: GalleryProps) {
                     &gt;
                 </button>
             </div>
+            )}
           </div>
         </div>
       )}
