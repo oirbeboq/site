@@ -270,10 +270,14 @@ const projects: Project[] = [
         title: "break like a baby",
         category: "game",
         media: [
-        { type: "image", src: "/proj/breaklikebaby/0.png" },
+        { type: "image", src: "/proj/breaklikebaby/00.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1200216293?h=09337aeeca"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1202099376?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1202099432?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1202109944?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"},
         { type: "image", src: "/proj/breaklikebaby/1.png" },
         { type: "image", src: "/proj/breaklikebaby/2.png" },
+       
         ]
     },
     {
