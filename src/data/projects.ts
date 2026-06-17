@@ -140,7 +140,8 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/her/0.png" },
         { type: "image", src: "/proj/her/1.png" },
-        { type: "image", src: "/proj/her/2.png" }, 
+        { type: "image", src: "/proj/her/4.png" }, 
+        { type: "image", src: "/proj/her/3.png" }, 
         { type: "vimeo", src: "https://player.vimeo.com/video/1201774366?h=827570e690"},
         ]
     },
@@ -294,8 +295,13 @@ const projects: Project[] = [
         category: "game",
         media: [
         { type: "image", src: "/proj/black/0.png" },
+        { type: "vimeo", src:"https://player.vimeo.com/video/1202126917?h=99d5775d35"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1201709482?h=3ba0e2b35d" },
-        { type: "image", src: "/proj/black/0.png" },
+        { type: "image", src: "/proj/black/2.png" },
+        { type: "image", src: "/proj/black/1.png" },
+        { type: "image", src: "/proj/black/3.png" },
+        { type: "image", src: "/proj/black/4.jpg" },
+        { type: "image", src: "/proj/black/5.jpg" },
         ]
     },
     {
