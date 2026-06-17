@@ -101,7 +101,7 @@ body {
     width: 100%;
     
     overflow: visible;
-
+    gap: 1rem;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -111,7 +111,7 @@ body {
 
   .mobile-media-item{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
