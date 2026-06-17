@@ -410,7 +410,7 @@ body {
 .nav-btn:hover {
   background-color: black;
   color:white;
-  border-radius: 5px;
+  border-radius:5px;
 
     transform: translateX(10px);
 
@@ -431,10 +431,14 @@ body {
   /*border: 2px dotted blue;*/
   background-color: #101010;
 
-  width: 70vw;
+  width: 85vw;
   height: 90vh;
   border-radius: 15px;
   padding: 15px 15px;
+
+  align-items: center;
+  margin:0;
+  padding: auto;
 }
 
 .profile-image img{
@@ -446,9 +450,56 @@ body {
   display:block;
   margin: 0 auto;
 }
-.bio{
+.profile-image p{
+  text-align: center;
+  color: #484848;
+}
+.bio-container{
   text-align: center;
   font-family: inherit;
+  color: #7e7e7e;
+}
+
+.tools-container{
+  /*border: 2px dotted red;*/
+  display: block;
+  align-items: center;
+  text-align: center;
+  font-family: inherit;
+}
+
+.contact-container{
+ 
+  /*border: 2px dotted yellow;*/
+  align-items: center;
+  text-align: center;
+}
+
+.contact-container a{
+  color: rgb(136, 255, 0);
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.contact-container a:hover{
+  color: #D3D3D3;
+}
+
+.contact-container a span{
+  color:rgb(136, 255, 0);
+}
+.tools-container h1{
+  font-size: 20px;;
+  color: #7e7e7e;
+}
+
+ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  color: #7e7e7e;
+  
 }
 
 
