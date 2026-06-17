@@ -10,9 +10,13 @@ export default function AboutPage() {
             <div 
                 className="bio-container">
                    <p>my name is animation and i make randy make games.</p>
-                   <p className ="desc-container"> Randy Addaé Manu is a Multi-faceted digital artist based in
+                   <p className ="desc-container"> Randy Addaé Manu is a multi-faceted digital artist based in
                         New York. He specializes in game design,
-                        visual development, & animation 
+                        visual development, & animation  
+                        <br />
+                        <br />
+                        In his work lives a design philosophy of sketch permanence-the idea of 
+                        leaving traces of mess for a stylized look 
                     </p>
 
             </div>
@@ -23,6 +27,12 @@ export default function AboutPage() {
                     <a href="https://www.instagram.com/oirbeboq/">Instagram <span>[-]</span></a>
                     <a href="https://www.youtube.com/@byoirt">Youtube <span>[-]</span></a>
                     */}
+            </div>
+            <div 
+                className="clients-container">
+                    <h1>Selected Clients</h1>
+                    <a href="https://www.instagram.com/bywin.us/">ByWin<span>[-]</span></a>
+                    <a href="https://www.instagram.com/uniforumco/">Uniforum<span>[-]</span></a>
             </div>
             <div
                 className="tools-container">
