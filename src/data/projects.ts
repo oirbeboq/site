@@ -218,6 +218,7 @@ const projects: Project[] = [
         category:"game",
         media: [
         { type: "image", src: "/proj/adrenaline/0.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201969945?h=a103ae158d" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1201705245?h=c6b8bf8cbd"},
         { type: "image", src: "/proj/adrenaline/2.jpg" },
         { type: "image", src: "/proj/adrenaline/3.jpg" },
@@ -243,8 +244,8 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/skame/00.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1200220854?h=3e57e649bc"  },
-        { type: "image", src: "/proj/skame/2.jpg" },
-        { type: "image", src: "/proj/skame/3.jpg" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201966980?h=55d0a5c195"  },
+        { type: "image", src: "/proj/skame/2.png" },
         ]
     },
     {
