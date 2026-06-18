@@ -352,7 +352,7 @@ body {
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  padding: auto;
+  padding-top: 15px;
   display:block;
   margin: 0 auto;
 }
