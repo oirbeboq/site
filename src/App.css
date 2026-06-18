@@ -338,7 +338,7 @@ body {
   background-color: #101010;
 
   width: 85vw;
-  height: 90vh;
+  height: 100vh;
   border-radius: 15px;
   padding: 15px 15px;
 
@@ -421,10 +421,12 @@ ul{
 }
 .clients-container{
   /*border: 2px dashed blue;*/
+  padding: 15px 15px;;
 }
 .clients-container h1{
   color: #7e7e7e;
   font-size:20px;
+  
 }
 .clients-container a{
   text-decoration: none;
