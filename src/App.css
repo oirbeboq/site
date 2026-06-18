@@ -338,13 +338,12 @@ body {
   background-color: #101010;
 
   width: 85vw;
-  height: 100vh;
+  min-height: 100vh;
   border-radius: 15px;
   padding: 15px 15px;
 
   align-items: center;
   margin:0;
-  padding: auto;
 }
 
 .profile-image img{
