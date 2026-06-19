@@ -1,164 +1,156 @@
-
-import { useState } from "react";
-import {type Project, type MediaItem} from "./data/projects.ts";
+import { useState, useEffect } from "react";
+import { type Project, type MediaItem } from "./data/projects.ts";
 import { useParams } from "react-router-dom";
-import { useEffect } from "react";
 
 export type GalleryProps = {
-    selected: Project | null;
-    setSelected: React.Dispatch<React.SetStateAction<Project | null>>;
-    projects: Project[];
-}
+  selected: Project | null;
+  setSelected: React.Dispatch<React.SetStateAction<Project | null>>;
+  projects: Project[];
+};
 
+function Gallery({ selected, setSelected, projects }: GalleryProps) {
+  const { category } = useParams();
 
-function Gallery({selected, setSelected, projects}: GalleryProps) {
-   
-    const [index, setIndex] = useState(0); //  1-based
+  const filteredProjects =
+    !category || category === "all"
+      ? projects
+      : projects.filter((p) => p.category === category);
 
-    const openModal = (projects:Project) => {
-        setSelected(projects);
-        setIndex(1); // start at 1
-    };
-    // index is 1-based and intentionally skips media[0]
-    const safeIndex =
-    selected ? Math.min(index, selected.media.length - 1) : 0;
+  // skip first media item (thumbnail convention)
+  const mediaItems: MediaItem[] = selected ? selected.media.slice(1) : [];
 
-    const current: MediaItem | null =
-    selected ? selected.media[safeIndex] : null;
+  const [index, setIndex] = useState(0);
+  const [hovered, setHovered] = useState<number | null>(null);
+  const [isMobile, setIsMobile] = useState(false);
 
-    const[hovered, setHovered] = useState<number |null>(null);
-    
-  
-    const {category} = useParams();
-    const filteredProjects = !category || category === "all" ?
-    projects : projects.filter(p => p.category === category);
+  // safe resize handling
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 700);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
 
-    const [isMobile, setIsMobile]= useState(window.innerWidth < 700);
+  const openModal = (project: Project) => {
+    setSelected(project);
+    setIndex(0);
+  };
 
-    useEffect(() => {
-        const onResize = () => setIsMobile(window.innerWidth < 700);
-        window.addEventListener("resize", onResize);
-        return() => window.removeEventListener("resize", onResize);
-    }, []);
-    
+  const closeModal = () => {
+    setSelected(null);
+    setIndex(0);
+  };
 
+  const current = mediaItems[index] ?? null;
 
+  const next = () => {
+    setIndex((i) => Math.min(i + 1, mediaItems.length - 1));
+  };
 
-
+  const prev = () => {
+    setIndex((i) => Math.max(i - 1, 0));
+  };
 
   return (
     <>
       {/* GRID */}
       <div className="grid-container">
         {filteredProjects.map((p, i) => (
-          <div key={i} 
-          className={`box ${hovered !== null && hovered !== i ? 'desaturated': ""}`}
+          <div
+            key={p.title + i}
+            className={`box ${
+              hovered !== null && hovered !== i ? "desaturated" : ""
+            }`}
             onMouseEnter={() => setHovered(i)}
             onMouseLeave={() => setHovered(null)}
-          onClick={() => openModal(p)}>
+            onClick={() => openModal(p)}
+          >
             <img src={p.media[0].src} alt={p.title} />
           </div>
         ))}
       </div>
-        
-      
-        
-    
+
       {/* MODAL */}
       {selected && (
-        <div className="modal" onClick={() => setSelected(null)}>
-          <div
-            className="modal-content"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button 
-            className="close-btn"
-            onClick={() => setSelected(null)}
-            aria-label="close modal"
+        <div className="modal" onClick={closeModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button
+              className="close-btn"
+              onClick={closeModal}
+              aria-label="close modal"
             >
-                x
+              ×
             </button>
-            {/* MEDIA (1-based → index - 1) */}
+
+            {/* MEDIA */}
             <div className="media-frame">
-                {isMobile ? (
-                    selected.media.slice(1).map((item, i) => (
-                    <div key={i} className="mobile-media-item">
-                        {item.type === "image" ? (
-                        <img src={item.src} alt="" />
-                        ) : item.type === "video" ? (
+              {isMobile ? (
+                mediaItems.map((item, i) => (
+                  <div key={i} className="media-wrapper">
+                    <div className="mobile-media-item">
+                      {item.type === "image" && <img src={item.src} />}
+
+                      {item.type === "video" && (
                         <video controls>
-                            <source src={item.src} type="video/mp4" />
+                          <source src={item.src} type="video/mp4" />
                         </video>
-                        ) : item.type === "vimeo" ? (
+                      )}
+
+                      {item.type === "vimeo" && (
                         <iframe
-                            className="vimeo-frame"
-                            src={item.src}
-                            allow="autoplay; fullscreen; picture-in-picture"
-                            allowFullScreen
+                          src={item.src}
+                          allow="autoplay; fullscreen; picture-in-picture"
+                          allowFullScreen
                         />
-                        ) : null}
+                      )}
                     </div>
-                    ))
-                ) : (
-                <>
-                {current?.type === "image" ? (
-                    <img src={current.src}/>
-                ) : current?.type === "video" ? (
-                    <video key={current.src} autoPlay loop controls>
-                        <source src= {current.src} type="video/mp4"/>
+                  </div>
+                ))
+              ) : (
+                <div className="media-wrapper">
+                  {current?.type === "image" && <img src={current.src} />}
+
+                  {current?.type === "video" && (
+                    <video autoPlay loop controls>
+                      <source src={current.src} type="video/mp4" />
                     </video>
-                ) : current?.type ==="vimeo" ?(
+                  )}
+
+                  {current?.type === "vimeo" && (
                     <iframe
-                        className="vimeo-frame"
-                        src={current.src + "?autoplay=1"}
-                        allow="autoplay; fullscreen; picture-in-picture; 
-                        clipboard-write; encrypted-media; web-share"   
-                        allowFullScreen
+                      className="vimeo-frame"
+                      src={`${current.src}?autoplay=1`}
+                      allow="autoplay; fullscreen; picture-in-picture; web-share"
+                      allowFullScreen
                     />
-                ): null}
-                </>
-                )}
-
+                  )}
+                </div>
+              )}
             </div>
-        {/* CAROUSEL */}
-        
-            {/* CONTROLS */}
-            {!isMobile && (
-                <div className="controls">
-                    <button
-                        className={`nav-btn ${index === 1 ? "disabled" : ""}`}
-                        disabled={index === 1}
-                        onClick={() =>
-                            setIndex((prev) =>
-                            prev > 1 ? prev - 1 : prev
-                            )
-                        }
-                        >
-                        &lt;
-                    </button>
 
-              <span className="counter">
-                {index} / {selected.media.length - 1}
-              </span>
-                
+            {/* CONTROLS (desktop only) */}
+            {!isMobile && mediaItems.length > 0 && (
+              <div className="controls">
                 <button
-                    className={`nav-btn ${
-                        index === selected.media.length - 1
-                        ? "disabled"
-                        : ""
-                    }`}
-                    disabled={index === selected.media.length - 1}
-                    onClick={() =>
-                        setIndex((prev) =>
-                        prev < selected.media.length
-                            ? prev + 1
-                            : prev
-                        )
-                    }
-                    >
-                    &gt;
+                  className="nav-btn"
+                  onClick={prev}
+                  disabled={index === 0}
+                >
+                  &lt;
                 </button>
-            </div>
+
+                <span className="counter">
+                  {index + 1} / {mediaItems.length}
+                </span>
+
+                <button
+                  className="nav-btn"
+                  onClick={next}
+                  disabled={index === mediaItems.length - 1}
+                >
+                  &gt;
+                </button>
+              </div>
             )}
           </div>
         </div>
@@ -168,5 +160,3 @@ function Gallery({selected, setSelected, projects}: GalleryProps) {
 }
 
 export default Gallery;
-
-

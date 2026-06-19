@@ -49,11 +49,11 @@ const projects: Project[] = [
         category: "animation",
         media: [
         { type: "image", src: "/proj/noise-room/0.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200163442?h=31d49aee7e" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200163442?h=31d49aee7&autoplay=1&loop=1&muted=1&background=1" },
         { type: "image", src: "/proj/noise-room/1.png" },
         { type: "image", src: "/proj/noise-room/2.png" },
         { type: "image", src: "/proj/noise-room/3.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200179841?h=1b9c26aff7"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200179841?h=1b9c26aff7&autoplay=1&loop=1&muted=1&background=1"},
         ]
     },
     {
@@ -61,9 +61,9 @@ const projects: Project[] = [
         category: "character",
         media: [
         { type: "image", src: "/proj/heavy-tank/00.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201552257?h=802ac53158"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201552256?h=b1a05acb5f"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201552255?h=133ed8b17a" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201552257?h=802ac53158&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201552256?h=b1a05acb5f&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201552255?h=133ed8b17a&autoplay=1&loop=1&muted=1&background=1" },
         { type: "image", src: "/proj/heavy-tank/1.png" },
         { type: "image", src: "/proj/heavy-tank/2.png" },
         ]
@@ -73,12 +73,12 @@ const projects: Project[] = [
         category: "animation",
         media: [
         { type: "image", src: "/proj/canfly/0.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200480356?h=b079d8d77d"  },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200480356?h=b079d8d77d&autoplay=1&loop=1&muted=1&background=1"  },
         { type: "image", src: "/proj/canfly/11.png" },
         { type: "image", src: "/proj/canfly/22.png" },
         { type: "image", src: "/proj/canfly/1.jpg" },
         { type: "image", src: "/proj/canfly/2.jpg" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200482833?h=8ba27acf90" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200482833?h=8ba27acf90&autoplay=1&loop=1&muted=1&background=1" },
         ]
     },
 
@@ -87,7 +87,7 @@ const projects: Project[] = [
         category: "animation",
         media: [
         { type: "image", src: "/proj/shams-song/0.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200495602?h=24a7650761"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200495602?h=24a7650761&autoplay=1&loop=1&muted=1&background=1"},
         { type: "image", src: "/proj/shams-song/1.png" },
         { type: "image", src: "/proj/shams-song/2.png" },
         { type: "image", src: "/proj/shams-song/3.png" },
@@ -104,9 +104,9 @@ const projects: Project[] = [
         category: "animation",
         media: [
         { type: "image", src: "/proj/bywin-uniforum/00.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201721351?h=a15ddd73fe"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201721350?h=6f33e172ac" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201721352?h=c081c24a75"  },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201721351?h=a15ddd73fe&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201721350?h=6f33e172ac&autoplay=1&loop=1&muted=1&background=1" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201721352?h=c081c24a75&autoplay=1&loop=1&muted=1&background=1"  },
         { type: "image", src: "/proj/bywin-uniforum/1.webp" },
         { type: "image", src: "/proj/bywin-uniforum/2.webp" },
         { type: "image", src: "/proj/bywin-uniforum/3.webp" },
@@ -142,7 +142,7 @@ const projects: Project[] = [
         { type: "image", src: "/proj/her/1.png" },
         { type: "image", src: "/proj/her/4.png" }, 
         { type: "image", src: "/proj/her/3.png" }, 
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201774366?h=827570e690"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201774366?h=827570e690&autoplay=1&loop=1&muted=1&background=1"},
         ]
     },
 
@@ -208,10 +208,10 @@ const projects: Project[] = [
         category: "character",
         media: [
         { type: "image", src: "/proj/boxhead/0.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200488003?h=8d8ce627d9" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200488447?h=ec11835c0a" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200491052?h=166f41cf6a" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201740561?h=843d4ff538" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200488003?h=8d8ce627d9&autoplay=1&loop=1&muted=1&background=1" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200488447?h=ec11835c0a&autoplay=1&loop=1&muted=1&background=1" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200491052?h=166f41cf6a&autoplay=1&loop=1&muted=1&background=1" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201740561?h=843d4ff538&autoplay=1&loop=1&muted=1&background=1" },
         ]
     },
     {
@@ -219,10 +219,10 @@ const projects: Project[] = [
         category:"game",
         media: [
         { type: "image", src: "/proj/adrenaline/0.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201969945?h=a103ae158d"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201705245?h=c6b8bf8cbd"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1202091479?h=35c4954864"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1202091916?h=6bed6a9839"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201969945?h=a103ae158d&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201705245?h=c6b8bf8cbd&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1202091479?h=35c4954864&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1202091916?h=6bed6a9839&autoplay=1&loop=1&muted=1&background=1"},
         ]
     },
      {
@@ -244,8 +244,8 @@ const projects: Project[] = [
         category: "game",
         media: [
         { type: "image", src: "/proj/skame/00.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200220854?h=3e57e649bc"  },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201966980?h=55d0a5c195"  },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200220854?h=3e57e649bc&autoplay=1&loop=1&muted=1&background=1"  },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201966980?h=55d0a5c195&autoplay=1&loop=1&muted=1&background=1"  },
         { type: "image", src: "/proj/skame/2.png" },
         ]
     },
@@ -272,10 +272,10 @@ const projects: Project[] = [
         category: "game",
         media: [
         { type: "image", src: "/proj/breaklikebaby/00.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200216293?h=09337aeeca"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1202099376?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1202099432?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1202109944?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200216293?h=09337aeeca&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1202099376?&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1202099432?&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1202109944?&autoplay=1&loop=1&muted=1&background=1"},
         { type: "image", src: "/proj/breaklikebaby/1.png" },
         { type: "image", src: "/proj/breaklikebaby/2.png" },
        
@@ -295,8 +295,8 @@ const projects: Project[] = [
         category: "game",
         media: [
         { type: "image", src: "/proj/black/0.png" },
-        { type: "vimeo", src:"https://player.vimeo.com/video/1202126917?h=99d5775d35"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201709482?h=3ba0e2b35d" },
+        { type: "vimeo", src:"https://player.vimeo.com/video/1202126917?h=99d5775d35&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201709482?h=3ba0e2b35d&autoplay=1&loop=1&muted=1&background=1" },
         { type: "image", src: "/proj/black/2.png" },
         { type: "image", src: "/proj/black/1.png" },
         { type: "image", src: "/proj/black/3.png" },
