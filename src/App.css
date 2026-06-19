@@ -497,9 +497,9 @@ ul{
     width: 100%;
     height: auto;
     max-height: none;
-
-    display: block;
-    overflow: visible;
+    padding: 0;
+    margin: 0;
+   
   }
 
   .media-frame{
@@ -519,7 +519,7 @@ ul{
   .mobile-media-item{
     width: 100%;
     height: auto;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 
@@ -534,8 +534,11 @@ ul{
   }
 
   .mobile-media-item iframe{
+    display: block;
     width: 100%;
+    height: auto;
     aspect-ratio: 16/9;
+    border:0;
   }
 
   .vimeo-frame{

@@ -50,10 +50,12 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/noise-room/0.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1200163442?h=31d49aee7&autoplay=1&loop=1&muted=1&background=1" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200179841?h=1b9c26aff7&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1202839681?h=499cd0867e&autoplay=1&loop=1&muted=1&background=1"},
         { type: "image", src: "/proj/noise-room/1.png" },
         { type: "image", src: "/proj/noise-room/2.png" },
         { type: "image", src: "/proj/noise-room/3.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200179841?h=1b9c26aff7&autoplay=1&loop=1&muted=1&background=1"},
+       
         ]
     },
     {
@@ -64,8 +66,12 @@ const projects: Project[] = [
         { type: "vimeo", src: "https://player.vimeo.com/video/1201552257?h=802ac53158&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1201552256?h=b1a05acb5f&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1201552255?h=133ed8b17a&autoplay=1&loop=1&muted=1&background=1" },
+        { type: "image", src: "/proj/heavy-tank/01.png" },
+        { type: "image", src: "/proj/heavy-tank/02.png" },
+        { type: "image", src: "/proj/heavy-tank/03.png" },
         { type: "image", src: "/proj/heavy-tank/1.png" },
         { type: "image", src: "/proj/heavy-tank/2.png" },
+        { type: "image", src: "/proj/heavy-tank/3.png" },
         ]
     },
     {
