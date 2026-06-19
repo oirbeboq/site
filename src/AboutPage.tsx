@@ -16,7 +16,7 @@ export default function AboutPage() {
                         <br />
                         <br />
                         In his work lives a design philosophy of sketch permanence-the idea of 
-                        leaving traces of mess for a stylized look 
+                        leaving traces of rough and drafts for a stylized look 
                     </p>
 
             </div>

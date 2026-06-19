@@ -402,7 +402,7 @@ body {
 }
 
 .contact-container a:hover{
-  color: #D3D3D3;
+  color: white;
 }
 
 .contact-container a span{
@@ -422,7 +422,7 @@ ul{
 }
 .clients-container{
   /*border: 2px dashed blue;*/
-  padding: 15px 15px;;
+  padding: 15px 30px;
 }
 .clients-container h1{
   color: #7e7e7e;
@@ -433,8 +433,16 @@ ul{
   text-decoration: none;
   display: block;
   cursor: pointer;
-  color:rgb(136, 255, 0);;
+  color:rgb(136, 255, 0);
   font-size: 15px;
+}
+
+.clients-container span{
+  color:rgb(136, 255, 0);
+}
+
+.clients-container a:hover{
+    color: white;
 }
 
 @media (min-width: 700px){
@@ -528,6 +536,12 @@ ul{
   .mobile-media-item iframe{
     width: 100%;
     aspect-ratio: 16/9;
+  }
+
+  .vimeo-frame{
+    border: 0;
+    display: block;
+    box-shadow: none;
   }
 
   .clients-container{
