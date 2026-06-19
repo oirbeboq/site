@@ -482,7 +482,7 @@ ul{
     height: 100vh;
     max-height: none;
     overflow-y: auto;
-    border: 5px darkcyan dashed;
+    /*border: 5px darkcyan dashed;*/
     scroll-snap-type: y mandatory;
   }
   .media-wrapper{
