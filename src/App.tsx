@@ -116,15 +116,19 @@ function App(){
         </div>
       </div>)}
       
-    <div id="page-title">
-        <div className="title">
-            <img src= "/about-page/title.png"/>
-        </div>
-        <div className="title-desc">
-           Visual Development | Character Design, Game Design & Animation
-        </div>
-    </div>
+  
       <div id="main-wrapper">
+          <div id="page-title">
+                <div className="title">
+                    <a href="/">
+                        <img src= "/about-page/title.png"/>
+                    </a>
+                
+                </div>
+                <div className="title-desc">
+                    Visual Development | Character Design, Game Design & Animation
+                </div>
+            </div>
         <Routes>
           <Route path="/" element={<Gallery 
             selected={selected}
@@ -137,6 +141,9 @@ function App(){
           <Route path="/about" element={<AboutPage/>} />
         </Routes>
         
+      </div>
+      <div className="demo-reel-container">
+
       </div>
     </>
   );
