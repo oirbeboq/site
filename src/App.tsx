@@ -126,7 +126,7 @@ function App(){
                 
                 </div>
                 <div className="title-desc">
-                    Visual Development | Character Design, Game Design & Animation
+                    Art Direction, Illustration & Visual Development
                 </div>
             </div>
         <Routes>
