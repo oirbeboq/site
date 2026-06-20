@@ -142,9 +142,7 @@ function App(){
         </Routes>
         
       </div>
-      <div className="demo-reel-container">
-
-      </div>
+      
     </>
   );
 }
