@@ -18,6 +18,7 @@ const projects: Project[] = [
         { type: "image", src: "/proj/tuntum/main.webp" },
         { type: "image", src: "/proj/tuntum/closeup.webp" },
         { type: "image", src: "/proj/tuntum/bts.webp" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1031300610?autoplay=1&loop=1&muted=1&background=1" },
         ]
     },
     {

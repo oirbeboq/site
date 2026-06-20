@@ -10,9 +10,9 @@ export default function AboutPage() {
             <div 
                 className="bio-container">
                    <p>my name is animation and i make randy make games.</p>
-                   <p className ="desc-container"> Randy Addaé Manu is a multi-faceted digital artist based in
-                        New York. He specializes in game design,
-                        visual development, & animation  
+                   <p className ="desc-container"> Randy Addaé Manu is a Ghanaian-American viusal development artist based in
+                        New York City. He specializes in game design,
+                        character design, & animation 
                         <br />
                         <br />
                         In his work lives a design philosophy of sketch permanence-the idea of 
