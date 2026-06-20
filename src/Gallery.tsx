@@ -31,6 +31,18 @@ function Gallery({ selected, setSelected, projects }: GalleryProps) {
     return () => window.removeEventListener("resize", check);
   }, []);
 
+  useEffect(() => {
+    if (selected){
+      document.body.style.overflow = "hidden";
+    }else{
+      document.body.style.overflow = "";
+    }
+
+    return () =>{
+      document.body.style.overflow = "";
+    };
+  }, [selected]);
+
   const openModal = (project: Project) => {
     setSelected(project);
     setIndex(0);

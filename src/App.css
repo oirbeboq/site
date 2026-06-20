@@ -69,6 +69,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   width: 100%;
+  padding: 0;
   /*border: 2px line green;*/
 }
 
@@ -488,6 +489,7 @@ ul{
 @media (min-width: 700px){
   .grid-container {
     grid-template-columns:repeat(3, 1fr);
+    padding: 0;
   }
 
    .modal {
@@ -508,6 +510,8 @@ ul{
 @media (min-width: 1200px){
   .grid-container{
     grid-template-columns: repeat(4,1fr);
+    max-width: 1400px;
+    margin: 0 auto;
   }
 }
 
@@ -519,6 +523,10 @@ ul{
     gap: 10px;
     padding: 50px 0px;
     margin: 0;
+  }
+
+  .grid-container{
+    padding-top: 30px;
   }
 
   .modal{
