@@ -50,6 +50,7 @@ body {
   background-color:#121212 ;
   border-radius: 15px;
   margin: 10px;
+  height: 99vh;
   /*border: 2px violet dotted;*/
 }
 
@@ -462,14 +463,16 @@ ul{
 }
 
 .self-image-container{
+  padding-top: 200px;
   display: flex;
   justify-content: center;
-  border: 2px gold dashed;
+  /*border: 2px gold dashed;*/
 
 }
 
 .self-image-container img{
   height: 500px;
+  border-radius: 15px;
 }
 
 @media (min-width: 700px){
@@ -494,7 +497,7 @@ ul{
 
 @media (min-width: 1200px){
   .grid-container{
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
   }
 }
 

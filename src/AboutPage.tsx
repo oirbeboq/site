@@ -55,7 +55,9 @@ export default function AboutPage() {
                     </ul>
             </div>
 
-        
+        <div className="self-image-container">
+            <img src="/about-page/profile-img.png"/>
+        </div>
 
     </div>
    
