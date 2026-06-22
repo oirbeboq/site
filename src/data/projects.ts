@@ -34,6 +34,15 @@ const projects: Project[] = [
   
         ]
     },
+     {
+        title: "Warriors-furries",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/warriors/0.png" },
+        { type: "image", src: "/proj/warriors/1.png" },
+        
+        ]
+    },
     {
         title: "Ball Hog",
         category: "character",
