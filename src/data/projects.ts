@@ -40,8 +40,10 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/warriors/0.png" },
         { type: "image", src: "/proj/warriors/1.png" },
-        { type: "image", src: "/proj/warriors/11.png" },
         { type: "image", src: "/proj/warriors/22.png" },
+        { type: "image", src: "/proj/warriors/33.png" },
+        { type: "image", src: "/proj/warriors/11.png" },
+    
         
         ]
     },
