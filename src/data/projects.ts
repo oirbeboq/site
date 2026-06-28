@@ -43,6 +43,7 @@ const projects: Project[] = [
         { type: "image", src: "/proj/warriors/22.png" },
         { type: "image", src: "/proj/warriors/33.png" },
         { type: "image", src: "/proj/warriors/11.png" },
+        { type: "image", src: "/proj/warriors/44.png" },
     
         
         ]
