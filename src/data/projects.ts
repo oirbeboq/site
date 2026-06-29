@@ -102,6 +102,17 @@ const projects: Project[] = [
         { type: "vimeo", src: "https://player.vimeo.com/video/1200482833?h=8ba27acf90&autoplay=1&loop=1&muted=1&background=1" },
         ]
     },
+    {
+        title: "Trasket Ball",
+        category: "game",
+        media: [
+        { type: "image", src: "/proj/trasket-ball/0.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1205482410?h=167e889101&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1205484367?h=f21f3aba61&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1205484420?h=5cea19461f&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1205484386?h=64694d8c57&autoplay=1&loop=1&muted=1&background=1"}
+        ]
+    },
 
     {
         title: "Shams Song",
