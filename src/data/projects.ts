@@ -49,6 +49,16 @@ const projects: Project[] = [
         ]
     },
     {
+        title: "Ms Mango",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/msmango/0.png" },
+        { type: "image", src: "/proj/msmango/1.png" },
+        { type: "image", src: "/proj/msmango/2.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1206046373?h=4182720358?autoplay=1&loop=1&muted=1&background=1" },
+        ]
+    },
+    {
         title: "Ball Hog",
         category: "character",
         media: [
