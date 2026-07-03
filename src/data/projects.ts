@@ -54,6 +54,7 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/msmango/0.png" },
         { type: "image", src: "/proj/msmango/1.png" },
+        { type: "image", src: "/proj/msmango/3.png" },
         { type: "image", src: "/proj/msmango/2.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1206046373?h=4182720358?autoplay=1&loop=1&muted=1&background=1" },
         ]
