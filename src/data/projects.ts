@@ -35,6 +35,19 @@ const projects: Project[] = [
         ]
     },
      {
+        title: "striker",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/striker/0.png" },
+        { type: "image", src: "/proj/striker/1.png" },
+        { type: "image", src: "/proj/striker/3.png" },
+        { type: "image", src: "/proj/striker/2.png" },
+        { type: "image", src: "/proj/striker/4.png" },
+        
+        ]
+    },
+
+     {
         title: "Warriors-furries",
         category: "character",
         media: [
