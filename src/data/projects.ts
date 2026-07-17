@@ -46,41 +46,16 @@ const projects: Project[] = [
         
         ]
     },
-
-     {
-        title: "Warriors-furries",
-        category: "character",
-        media: [
-        { type: "image", src: "/proj/warriors/0.png" },
-        { type: "image", src: "/proj/warriors/1.png" },
-        { type: "image", src: "/proj/warriors/22.png" },
-        { type: "image", src: "/proj/warriors/33.png" },
-        { type: "image", src: "/proj/warriors/11.png" },
-        { type: "image", src: "/proj/warriors/44.png" },
-    
-        
-        ]
-    },
     {
-        title: "Ms Mango",
-        category: "character",
+        title: "Adrenaline",
+        category:"game",
         media: [
-        { type: "image", src: "/proj/msmango/0.png" },
-        { type: "image", src: "/proj/msmango/1.png" },
-        { type: "image", src: "/proj/msmango/2.png" },
-        { type: "image", src: "/proj/msmango/4.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1206046373?h=4182720358?autoplay=1&loop=1&muted=1&background=1" },
-        ]
-    },
-    {
-        title: "Ball Hog",
-        category: "character",
-        media: [
-        { type: "image", src: "/proj/ball-hog/0.jpg" },
-        { type: "image", src: "/proj/ball-hog/1.jpg" },
-        { type: "image", src: "/proj/ball-hog/2.jpg" },
-        { type: "image", src: "/proj/ball-hog/3.jpg" },
-        { type: "image", src: "/proj/ball-hog/4.png" },
+        { type: "image", src: "/proj/adrenaline/0.png" },
+        { type: "vimeo", src:"https://player.vimeo.com/video/1210357357?h=ff1bd3ec85&autoplay=1&loop=1&muted=1&background=1" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201969945?h=a103ae158d&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201705245?h=c6b8bf8cbd&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1202091479?h=35c4954864&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1202091916?h=6bed6a9839&autoplay=1&loop=1&muted=1&background=1"},
         ]
     },
     {
@@ -95,6 +70,91 @@ const projects: Project[] = [
         { type: "image", src: "/proj/noise-room/2.png" },
         { type: "image", src: "/proj/noise-room/3.png" },
        
+        ]
+    },
+    {
+        title: "Bywi Uniforum",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/bywin-uniforum/00.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201721351?h=a15ddd73fe&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201721350?h=6f33e172ac&autoplay=1&loop=1&muted=1&background=1" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201721352?h=c081c24a75&autoplay=1&loop=1&muted=1&background=1"  },
+        { type: "image", src: "/proj/bywin-uniforum/1.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/2.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/3.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/4.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/5.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/6.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/7.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/8.png" },
+        { type: "image", src: "/proj/bywin-uniforum/9.png" },
+        { type: "image", src: "/proj/bywin-uniforum/10.png" },
+        ]
+    },
+     {
+        title: "Trasket Ball",
+        category: "game",
+        media: [
+        { type: "image", src: "/proj/trasket-ball/0.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1205482410?h=167e889101&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1205484367?h=f21f3aba61&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1205484420?h=5cea19461f&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1205484386?h=64694d8c57&autoplay=1&loop=1&muted=1&background=1"}
+        ]
+    },
+    {
+        title: "Ms Mango",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/msmango/0.png" },
+        { type: "image", src: "/proj/msmango/1.png" },
+        { type: "image", src: "/proj/msmango/2.png" },
+        { type: "image", src: "/proj/msmango/4.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1206046373?h=4182720358?autoplay=1&loop=1&muted=1&background=1" },
+        ]
+    },
+    {
+        title: "Bobo Town",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/bobotown/0.png" },
+        { type: "image", src: "/proj/bobotown/1.png" },
+        { type: "image", src: "/proj/bobotown/2.png" },
+        { type: "image", src: "/proj/bobotown/3.png" },
+        { type: "image", src: "/proj/bobotown/4.png" },
+        { type: "image", src: "/proj/bobotown/5.png" },
+        { type: "image", src: "/proj/bobotown/6.png" },
+        { type: "image", src: "/proj/bobotown/7.png" },
+        ]
+    },
+    
+    
+
+    {
+        title: "Ball Hog",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/ball-hog/0.jpg" },
+        { type: "image", src: "/proj/ball-hog/1.jpg" },
+        { type: "image", src: "/proj/ball-hog/2.jpg" },
+        { type: "image", src: "/proj/ball-hog/3.jpg" },
+        { type: "image", src: "/proj/ball-hog/4.png" },
+        ]
+    },
+    
+    {
+        title: "Warriors-furries",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/warriors/0.png" },
+        { type: "image", src: "/proj/warriors/1.png" },
+        { type: "image", src: "/proj/warriors/22.png" },
+        { type: "image", src: "/proj/warriors/33.png" },
+        { type: "image", src: "/proj/warriors/11.png" },
+        { type: "image", src: "/proj/warriors/44.png" },
+    
+        
         ]
     },
     {
@@ -127,18 +187,6 @@ const projects: Project[] = [
         ]
     },
     {
-        title: "Trasket Ball",
-        category: "game",
-        media: [
-        { type: "image", src: "/proj/trasket-ball/0.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1205482410?h=167e889101&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1205484367?h=f21f3aba61&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1205484420?h=5cea19461f&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1205484386?h=64694d8c57&autoplay=1&loop=1&muted=1&background=1"}
-        ]
-    },
-
-    {
         title: "Shams Song",
         category: "animation",
         media: [
@@ -155,41 +203,6 @@ const projects: Project[] = [
         ]
     },
 
-     {
-        title: "Bywi Uniforum",
-        category: "animation",
-        media: [
-        { type: "image", src: "/proj/bywin-uniforum/00.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201721351?h=a15ddd73fe&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201721350?h=6f33e172ac&autoplay=1&loop=1&muted=1&background=1" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201721352?h=c081c24a75&autoplay=1&loop=1&muted=1&background=1"  },
-        { type: "image", src: "/proj/bywin-uniforum/1.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/2.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/3.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/4.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/5.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/6.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/7.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/8.png" },
-        { type: "image", src: "/proj/bywin-uniforum/9.png" },
-        { type: "image", src: "/proj/bywin-uniforum/10.png" },
-        ]
-    },
-
-    {
-        title: "Bobo Town",
-        category: "character",
-        media: [
-        { type: "image", src: "/proj/bobotown/0.png" },
-        { type: "image", src: "/proj/bobotown/1.png" },
-        { type: "image", src: "/proj/bobotown/2.png" },
-        { type: "image", src: "/proj/bobotown/3.png" },
-        { type: "image", src: "/proj/bobotown/4.png" },
-        { type: "image", src: "/proj/bobotown/5.png" },
-        { type: "image", src: "/proj/bobotown/6.png" },
-        { type: "image", src: "/proj/bobotown/7.png" },
-        ]
-    },
     {
         title: "her",
         category: "character",
@@ -268,18 +281,6 @@ const projects: Project[] = [
         { type: "vimeo", src: "https://player.vimeo.com/video/1200488447?h=ec11835c0a&autoplay=1&loop=1&muted=1&background=1" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1200491052?h=166f41cf6a&autoplay=1&loop=1&muted=1&background=1" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1201740561?h=843d4ff538&autoplay=1&loop=1&muted=1&background=1" },
-        ]
-    },
-    {
-        title: "Adrenaline",
-        category:"game",
-        media: [
-        { type: "image", src: "/proj/adrenaline/0.png" },
-        { type: "vimeo", src:"https://player.vimeo.com/video/1210357357?h=ff1bd3ec85&autoplay=1&loop=1&muted=1&background=1" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201969945?h=a103ae158d&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201705245?h=c6b8bf8cbd&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1202091479?h=35c4954864&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1202091916?h=6bed6a9839&autoplay=1&loop=1&muted=1&background=1"},
         ]
     },
      {
