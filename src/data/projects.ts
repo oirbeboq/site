@@ -51,7 +51,7 @@ const projects: Project[] = [
         category:"game",
         media: [
         { type: "image", src: "/proj/adrenaline/0.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1211086895?h=f527a7972c&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1211177882?h=e92e40ef67&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1201705245?h=c6b8bf8cbd&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1211086894?h=82931c0610&autoplay=1&loop=1&muted=1&background=1"},
         { type: "image", src: "/proj/adrenaline/1.png"},
