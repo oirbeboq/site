@@ -52,6 +52,7 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/adrenaline/0.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1211239466?h=9c94dbc9b4&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "image", src: "/proj/adrenaline/2.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1201705245?h=c6b8bf8cbd&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1211086894?h=82931c0610&autoplay=1&loop=1&muted=1&background=1"},
         { type: "image", src: "/proj/adrenaline/1.png"},
