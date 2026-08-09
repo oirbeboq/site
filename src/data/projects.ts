@@ -213,10 +213,11 @@ const projects: Project[] = [
         category: "character",
         media: [
         { type: "image", src: "/proj/her/0.png" },
-        { type: "image", src: "/proj/her/1.png" },
-        { type: "image", src: "/proj/her/4.png" }, 
-        { type: "image", src: "/proj/her/3.png" }, 
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201774366?h=827570e690&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "image", src: "/proj/her/00.png" },
+        { type: "image", src: "/proj/her/02.png" }, 
+        { type: "image", src: "/proj/her/03.png" }, 
+        { type: "image", src: "/proj/her/01.png" }, 
+        /*{ type: "vimeo", src: "https://player.vimeo.com/video/1201774366?h=827570e690&autoplay=1&loop=1&muted=1&background=1"},*/
         ]
     },
 

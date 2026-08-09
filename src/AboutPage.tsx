@@ -22,7 +22,7 @@ export default function AboutPage() {
             </div>
             <div 
                 className="contact-container">
-                    <a href="mailto:oirbeboq@gmail.com">Email <span>[-]</span></a>
+                    <a href="mailto:oirbeboq@gmail.com">Email</a>
                     {/*
                     <a href="https://www.instagram.com/oirbeboq/">Instagram <span>[-]</span></a>
                     <a href="https://www.youtube.com/@byoirt">Youtube <span>[-]</span></a>
@@ -31,8 +31,8 @@ export default function AboutPage() {
             <div 
                 className="clients-container">
                     <h1>Selected Clients</h1>
-                    <a href="https://www.instagram.com/bywin.us/">ByWin<span>[-]</span></a>
-                    <a href="https://www.instagram.com/uniforumco/">Uniforum<span>[-]</span></a>
+                    <a href="https://www.instagram.com/bywin.us/">ByWin</a>
+                    <a href="https://www.instagram.com/uniforumco/">Uniforum</a>
             </div>
             <div
                 className="tools-container">
