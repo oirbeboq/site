@@ -22,6 +22,17 @@ const projects: Project[] = [
         ]
     },
     {
+        title: "spiderman",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/spiderman/0.png" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/nQik5z0JDxE?si=W0i7st5uF67Alo26&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/sTz6UAZbKJs?si=ojm_UE6Fr3RJo_mi&autoplay=1&loop=1&mute=1&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/6wL-f5E1nQI?si=Y12FcNHhiJjERkJ1&autoplay=1&loop=1&mute=1&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/99QQ9anYQfI?si=q3Zal0qhvYJvDyhF&autoplay=1&loop=1&mute=1&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
+        ]
+    },
+    {
         title: "Beelzebub",
         category: "character",
         media: [
@@ -77,6 +88,14 @@ const projects: Project[] = [
        
         ]
     },
+    /*
+    {
+        title:"walk cycle",
+        category: "animation",
+        media: [
+            {type: "vimeo", src: ""}
+        ]
+    },*/
     {
         title: "Bywi Uniforum",
         category: "animation",
