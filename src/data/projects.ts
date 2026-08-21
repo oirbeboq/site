@@ -45,6 +45,14 @@ const projects: Project[] = [
   
         ]
     },
+    {
+        title: "anger",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/anger/0.png" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/fwLMiFmM5Q8?si=77CbkGBjbph7_EgR&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
+        ]
+    },
      {
         title: "striker",
         category: "character",
@@ -136,6 +144,14 @@ const projects: Project[] = [
         { type: "image", src: "/proj/msmango/2.png" },
         { type: "image", src: "/proj/msmango/4.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1206046373?h=4182720358?autoplay=1&loop=1&muted=1&background=1" },
+        ]
+    },
+     {
+        title: "happiness",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/happy/0.png" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/fvARteUqP2k?si=Nk43wS9Sf1QWUqG_&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
         ]
     },
     {
