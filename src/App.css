@@ -66,24 +66,36 @@ body {
 .grid-container {
   padding-top: 30px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  width: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  
+  gap:0;
   padding: 0;
+  
+  width: 100%;
+  height: 100vh;
+  
+  /*overflow-y: auto;*/
+  scroll-snap-type: y mandatory;
+  
   /*border: 2px line green;*/
 }
 
 
 
 .box {
-  aspect-ratio: 1/1;
   overflow: hidden;
   border-radius: 20px;
+
+  min-height: 100dvh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 
    transition:
     filter .25s ease,
     opacity .25s ease,
     transform .25s ease;
+  /*border: 2px green dotted;*/
+  width:inherit;
 }
 
 .box img {
@@ -493,6 +505,17 @@ ul{
   .grid-container {
     grid-template-columns:repeat(3, 1fr);
     padding: 0;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    
+
+  }
+
+  .box{
+    aspect-ratio: 1/1;
+    min-height: auto;
+    scroll-snap-align: none;
   }
 
    .modal {
