@@ -82,6 +82,17 @@ const projects: Project[] = [
         { type: "vimeo", src: "https://player.vimeo.com/video/1202091479?h=35c4954864&autoplay=1&loop=1&muted=1&background=1"},
         ]
     },
+      {
+        title: "fight",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/fight/0.png" },
+        { type: "image", src: "/proj/fight/1.png" },
+        { type: "image", src: "/proj/fight/2.png" },
+        { type: "image", src: "/proj/fight/3.png" },
+       
+        ]
+    },
     {
         title: "Noise Room",
         category: "animation",
