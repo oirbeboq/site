@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { type Project, type MediaItem } from "./data/projects.ts";
 import { useParams } from "react-router-dom";
+/*import { useRef } from "react";*/
 
 export type GalleryProps = {
   selected: Project | null;

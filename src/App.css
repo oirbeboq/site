@@ -32,6 +32,7 @@ body {
   font-family: "CustomFont", sans-serif;
   height: 100dvh;
   overflow-x: hidden;
+  padding: 25px;
   
 }
 
@@ -91,7 +92,7 @@ body {
   padding: 0;
 
   width: 100%;
-  height: 100dvh;
+  height: 80dvh;
   
   overflow-y: auto;
   scroll-snap-type: y mandatory;
@@ -105,7 +106,7 @@ body {
   overflow: hidden;
   border-radius: 20px;
 
-  min-height: 100dvh;
+  min-height: 80dvh;
   scroll-snap-align: start;
   scroll-snap-stop: always;
 
