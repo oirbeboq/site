@@ -103,7 +103,7 @@ body {
 
 
 .box {
-  aspect-ratio: 1/2;
+  aspect-ratio: 1/1.5;
   overflow: hidden;
   border-radius: 20px;
   height: auto;
