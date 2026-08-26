@@ -16,13 +16,25 @@
 
 }
 
+html{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+html:-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background: #080808;
   color: white;
   font-family: "CustomFont", sans-serif;
   height: 100dvh;
   overflow-x: hidden;
+  
 }
+
 
 #page-title {
   /*margin: 20px auto 0;*/
