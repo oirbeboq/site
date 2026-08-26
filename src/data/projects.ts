@@ -135,6 +135,16 @@ const projects: Project[] = [
         { type: "image", src: "/proj/bywin-uniforum/10.png" },
         ]
     },
+    {
+        title: "Klara",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/klara/0.png" },
+        { type: "image", src: "/proj/klara/1.png" },
+        { type: "image", src: "/proj/klara/2.png" },
+
+        ]
+    },
      {
         title: "Trasket Ball",
         category: "game",
