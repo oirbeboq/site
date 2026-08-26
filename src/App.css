@@ -20,11 +20,15 @@ body {
   background: #080808;
   color: white;
   font-family: "CustomFont", sans-serif;
+  height: 100dvh;
+  overflow-x: hidden;
 }
 
 #page-title {
-  margin: 20px auto 0;
-  width: fit-content;
+  /*margin: 20px auto 0;*/
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
   border-radius: 12px;
 
   display: flex;
@@ -34,6 +38,7 @@ body {
   text-align: center;
  
   font-size: 50px;
+  /*border: 2px blue dotted;*/
 
 } 
 .title img{
@@ -54,11 +59,13 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  padding: 50px 30px;
   background-color:#121212 ;
   border-radius: 20px;
-  margin: 10px;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
   min-height: 100vh;
+  overflow-x:  hidden;
   /*outline: 1px solid red;*/
   /*border: 2px violet dotted;*/
 }
@@ -95,7 +102,8 @@ body {
     opacity .25s ease,
     transform .25s ease;
   /*border: 2px green dotted;*/
-  width:inherit;
+  width:100%;
+  max-width: 100%;
 }
 
 .box img {
@@ -502,6 +510,20 @@ ul{
 }
 
 @media (min-width: 700px){
+
+  #main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 30px;
+  background-color:#121212 ;
+  border-radius: 20px;
+  margin: 10px;
+  min-height: 100vh;
+  /*outline: 1px solid red;*/
+  /*border: 2px violet dotted;*/
+}
   .grid-container {
     grid-template-columns:repeat(3, 1fr);
     padding: 0;
