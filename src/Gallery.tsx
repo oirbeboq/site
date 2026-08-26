@@ -43,6 +43,7 @@ function Gallery({ selected, setSelected, projects }: GalleryProps) {
     };
   }, [selected]);
 
+
   const openModal = (project: Project) => {
     setSelected(project);
     setIndex(0);
@@ -62,6 +63,23 @@ function Gallery({ selected, setSelected, projects }: GalleryProps) {
   const prev = () => {
     setIndex((i) => Math.max(i - 1, 0));
   };
+
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if(e.key === "ArrowLeft") {
+        e.preventDefault();
+        if(index > 0) prev();
+      }
+      else if (e.key === "ArrowRight"){
+        e.preventDefault();
+        if(index < mediaItems.length - 1) next();
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  },[index, prev, next, mediaItems.length]);
 
   return (
     <>

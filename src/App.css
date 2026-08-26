@@ -230,7 +230,11 @@ body {
   position: fixed;
   inset:0;
   
-  background: rgba(0,0,0,0.85);
+  /*background: rgba(0,0,0,0.85);*/
+   background:
+    radial-gradient(circle, #000 1.5px, transparent 0) 0 0 / 10px 10px,
+    radial-gradient(circle, #000 1.5px, transparent 0) 5px 5px / 10px 10px,
+    rgba(0,0,0,0.85);
   display: flex;
   justify-content: center;
   align-items: center;
