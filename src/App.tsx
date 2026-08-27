@@ -14,7 +14,10 @@ function App(){
     const [galleryOpen, setGalleryOpen] = useState(false);
     const [infoOpen, setInfoOpen] = useState(false);
 
-    const isGallery = location.pathname ==="/" || location.pathname.startsWith("/gallery");
+    const isGallery = location.pathname ==="/" || 
+    location.pathname === "/animation"||
+    location.pathname === "/character" ||
+    location.pathname === "/game";
     const isInfo = location.pathname === "/about" || location.pathname === "/archive";
     
   return (
@@ -26,7 +29,6 @@ function App(){
                 onMouseEnter={() => 
                     {setGalleryOpen(!galleryOpen);
                     setInfoOpen(false);
-                
                 }}
                 onMouseLeave={() =>
                     {setGalleryOpen(false);
