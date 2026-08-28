@@ -52,7 +52,7 @@ body {
   text-align: center;
  
   font-size: 50px;
-  border: 2px blue dotted;
+  /*border: 2px blue dotted;*/
 
 } 
 .title img{
@@ -89,7 +89,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   
-  gap:10px;
+  gap:5px;
   padding: 15px;
 
   width: 100%;
