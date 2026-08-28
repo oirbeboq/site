@@ -53,6 +53,14 @@ const projects: Project[] = [
         { type: "vimeo", src: "https://www.youtube.com/embed/fwLMiFmM5Q8?si=77CbkGBjbph7_EgR&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
         ]
     },
+    {
+        title: "bumble",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/bumble/0.png" },
+        { type: "image", src: "/proj/bumble/1.png" }
+        ]
+    },
      {
         title: "striker",
         category: "character",
