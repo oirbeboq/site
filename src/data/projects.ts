@@ -73,6 +73,34 @@ const projects: Project[] = [
         
         ]
     },
+     {
+        title: "Bywi Uniforum",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/bywin-uniforum/00.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201721351?h=a15ddd73fe&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201721350?h=6f33e172ac&autoplay=1&loop=1&muted=1&background=1" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1201721352?h=c081c24a75&autoplay=1&loop=1&muted=1&background=1"  },
+        { type: "image", src: "/proj/bywin-uniforum/1.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/2.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/3.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/4.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/5.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/6.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/7.webp" },
+        { type: "image", src: "/proj/bywin-uniforum/8.png" },
+        { type: "image", src: "/proj/bywin-uniforum/9.png" },
+        { type: "image", src: "/proj/bywin-uniforum/10.png" },
+        ]
+    },
+    {
+        title: "playerone",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/playerone/0.png" },
+        { type: "image", src: "/proj/playerone/1.png" }
+        ]
+    },
     {
         title: "Adrenaline",
         category:"game",
@@ -123,26 +151,6 @@ const projects: Project[] = [
             {type: "vimeo", src: ""}
         ]
     },*/
-    {
-        title: "Bywi Uniforum",
-        category: "animation",
-        media: [
-        { type: "image", src: "/proj/bywin-uniforum/00.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201721351?h=a15ddd73fe&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201721350?h=6f33e172ac&autoplay=1&loop=1&muted=1&background=1" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201721352?h=c081c24a75&autoplay=1&loop=1&muted=1&background=1"  },
-        { type: "image", src: "/proj/bywin-uniforum/1.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/2.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/3.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/4.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/5.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/6.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/7.webp" },
-        { type: "image", src: "/proj/bywin-uniforum/8.png" },
-        { type: "image", src: "/proj/bywin-uniforum/9.png" },
-        { type: "image", src: "/proj/bywin-uniforum/10.png" },
-        ]
-    },
     {
         title: "Klara",
         category: "character",
@@ -273,15 +281,11 @@ const projects: Project[] = [
     },
 
     {
-        title: "her",
+        title: "kane",
         category: "character",
         media: [
-        { type: "image", src: "/proj/her/0.png" },
-        { type: "image", src: "/proj/her/00.png" },
-        { type: "image", src: "/proj/her/02.png" }, 
-        { type: "image", src: "/proj/her/03.png" }, 
-        { type: "image", src: "/proj/her/01.png" }, 
-        /*{ type: "vimeo", src: "https://player.vimeo.com/video/1201774366?h=827570e690&autoplay=1&loop=1&muted=1&background=1"},*/
+        { type: "image", src: "/proj/kane/0.png" },
+        { type: "image", src: "/proj/kane/1.png" },
         ]
     },
 
