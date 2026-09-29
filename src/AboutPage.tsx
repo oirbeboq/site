@@ -10,9 +10,17 @@ export default function AboutPage() {
             <div 
                 className="bio-container">
                    <p>my name is animation and i make randy make games</p>
-                   <p className ="desc-container"> Randy Addaé Manu is a Ghanaian-American visual development artist based in
-                        New York City. He specializes in game design,
-                        illustration, & animation 
+                   <p className ="desc-container"> Randy Addaé Manu is a Ghanaian-American Visual Development Artist based in
+                        New York City with over 5+ years of experience across animation and video games.
+                        <br />
+                        <br />
+                        He specialize in juicing early creative ideas into cohesive visual worlds, bringing to life character concepts,
+                        and assisting in pitch development through strong visual direction.
+                        <br />
+                        <br />
+
+                        Currently open to freelance, contract, and consulting opportunities 
+                        in Art Direction, Animation, Visual Development, as well as Pitch Development!
                         <br />
                         <br />
                         
