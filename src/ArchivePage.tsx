@@ -3,8 +3,7 @@ export default function ArchivePage() {
     <div className="archive-page-main-container">
 
         <div className="archive-page-desc">
-            A collection of paragraphs from essays written by me. 
-            Feel free to contact me if you are interested in reading more!
+            A collection of paragraphs from various essays. Feel free to contact me if you are interested in reading more!
         </div>
         <h1>Baba Is Me: A Deep Dive Into Player Autonomy and Satisfaction
         </h1>
