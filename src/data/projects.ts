@@ -390,7 +390,7 @@ const projects: Project[] = [
         { type: "image", src: "/proj/umi/2.jpg" },
         ]
     },
-    {
+    /*{
         title: "parker",
         category: "character",
         media: [
@@ -399,11 +399,13 @@ const projects: Project[] = [
         { type: "image", src: "/proj/parker/2.png" },
         ]
     },
+    */
     {
         title: "break like a baby",
         category: "game",
         media: [
         { type: "image", src: "/proj/breaklikebaby/00.png" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/D4pU74SOIJ0?si=5Qw9nbEHXOuNCFlA&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1200216293?h=09337aeeca&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1202099376?&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1202099432?&autoplay=1&loop=1&muted=1&background=1"},
