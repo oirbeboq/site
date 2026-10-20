@@ -390,16 +390,15 @@ const projects: Project[] = [
         { type: "image", src: "/proj/umi/2.jpg" },
         ]
     },
-    /*{
-        title: "parker",
-        category: "character",
+    {
+        title: "Walk Cycle",
+        category: "animation",
         media: [
-        { type: "image", src: "/proj/parker/0.png" },
-        { type: "image", src: "/proj/parker/1.png" },
-        { type: "image", src: "/proj/parker/2.png" },
+        { type: "image", src: "/proj/walk-cycle/0.png" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/7i21DJmV3vQ?si=BnjSYQbAfSbT_y2p&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
+        
         ]
     },
-    */
     {
         title: "break like a baby",
         category: "game",
