@@ -528,6 +528,7 @@ ul{
 /*ARCHIVE PAGE */
 
 .archive-page-main-container{
+  width: 100%;
   display: grid;
   place-items: center;
   padding: 20px;
@@ -542,11 +543,35 @@ ul{
 .archive-page-main-container h1{
   font-size: 20px;
   font-weight: 100;
+  /*border: 2px dashed blue;*/
 }
 
 .archive-page-main-container p{
   width:600px;
   color: #7e7e7e;
+  /*border: 2px dashed green;*/
+}
+
+@media (max-width: 767px){
+  .archive-page-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding: 12px;
+    /*border: 2px dashed blue;*/
+    overflow: visible; /* nothing should need to scroll or be clipped */
+  }
+
+  /* every direct child fits the container */
+  .archive-page-main-container > * {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0; /* lets flex children shrink below their content width */
+  }
 }
 
 @media (min-width: 700px){
