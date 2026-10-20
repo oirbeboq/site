@@ -4,6 +4,7 @@ import { Routes, Route} from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import AboutPage  from "./AboutPage";
+import ArchivePage from "./ArchivePage";
 import Gallery from "./Gallery";
 import projects, {type Project} from "./data/projects.ts";
 
@@ -139,7 +140,7 @@ function App(){
           <Route path="/:category" element={<Gallery selected={selected}
             setSelected={setSelected}
             projects={projects}/>} />
-          {/*<Route path="/archive" element={<ArchivePage/>} />*/}
+          {<Route path="/archive" element={<ArchivePage/>} />}
           <Route path="/about" element={<AboutPage/>} />
         </Routes>
         

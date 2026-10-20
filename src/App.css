@@ -524,6 +524,31 @@ ul{
   border-radius: 15px;
 }
 
+
+/*ARCHIVE PAGE */
+
+.archive-page-main-container{
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.archive-page-desc{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.archive-page-main-container h1{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.archive-page-main-container p{
+  width:600px;
+  color: #7e7e7e;
+}
+
 @media (min-width: 700px){
 
   #main-wrapper {
