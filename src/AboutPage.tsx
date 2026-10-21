@@ -49,6 +49,9 @@ export default function AboutPage() {
                         <li>Adobe Photoshop</li>
                         <li>Adobe After Effects</li>
                         <li>Adobe Indesign</li>
+                        <li>Adobe Primiere Pro</li>
+                        <li>Adobe Substance Painter</li>
+                        <li>Autodesk Maya</li>
                         <li>Aseprite</li>
                         <li>Blender</li>
                         <li>Clip Studio Paint</li>
@@ -56,6 +59,8 @@ export default function AboutPage() {
                         <li>Unity</li>
                         <li>Unreal Engine</li>
                         <li>Procreate</li>
+                        <li>Procreate Dreams</li>
+                       
                         
                         
 
