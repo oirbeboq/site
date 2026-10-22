@@ -54,13 +54,14 @@ const projects: Project[] = [
         ]
     },
     {
-        title: "bumble",
-        category: "character",
+        title:"judyhopp",
+        category: "animation",
         media: [
-        { type: "image", src: "/proj/bumble/0.png" },
-        { type: "image", src: "/proj/bumble/1.png" }
+            {type:"image", src: "/proj/judyhopp/0.png"},
+            {type:"vimeo", src: "https://www.youtube.com/embed/9CTe5uW5MYs?si=jN8UAX-fXOHEi-Fi&autoplay=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0"}
         ]
     },
+    
      {
         title: "striker",
         category: "character",
@@ -381,6 +382,14 @@ const projects: Project[] = [
         { type: "image", src: "/proj/skame/3.png" },
         { type: "image", src: "/proj/skame/2.png" },
         { type: "image", src: "/proj/skame/4.png" },
+        ]
+    },
+    {
+        title: "bumble",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/bumble/0.png" },
+        { type: "image", src: "/proj/bumble/1.png" }
         ]
     },
     {

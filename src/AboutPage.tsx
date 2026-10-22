@@ -60,11 +60,6 @@ export default function AboutPage() {
                         <li>Unreal Engine</li>
                         <li>Procreate</li>
                         <li>Procreate Dreams</li>
-                       
-                        
-                        
-
-                        
                     </ul>
             </div>
         {/*
