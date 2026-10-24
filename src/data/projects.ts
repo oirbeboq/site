@@ -299,6 +299,14 @@ const projects: Project[] = [
         { type: "image", src: "/proj/flyers/2.webp" },
         ]
     },
+     {
+        title: "vlad",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/vlad/0.png" },
+        { type: "image", src: "/proj/vlad/1.png" },
+        ]
+    },
     {
         title: "Pixelizing",
         category:"character",
