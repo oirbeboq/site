@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import AboutPage  from "./AboutPage";
 import ArchivePage from "./ArchivePage";
+import ReelPage from "./ReelPage.tsx";
 import Gallery from "./Gallery";
 import projects, {type Project} from "./data/projects.ts";
 
@@ -18,7 +19,8 @@ function App(){
     const isGallery = location.pathname ==="/" || 
     location.pathname === "/animation"||
     location.pathname === "/character" ||
-    location.pathname === "/game";
+    location.pathname === "/game" ||
+    location.pathname === '/reel';
     const isInfo = location.pathname === "/about" || location.pathname === "/archive";
     
   return (
@@ -73,6 +75,14 @@ function App(){
                         navigate("/game")
                     }}>
                         Games
+                    </button>
+
+                      <button
+                    onClick={() => {
+                        setGalleryOpen(false);
+                        navigate("/reel")
+                    }}>
+                        Reel
                     </button>
                 </div>
                 )}
@@ -142,6 +152,7 @@ function App(){
             projects={projects}/>} />
           {<Route path="/archive" element={<ArchivePage/>} />}
           <Route path="/about" element={<AboutPage/>} />
+          <Route path="/reel" element={<ReelPage/>} />
         </Routes>
         
       </div>
