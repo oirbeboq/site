@@ -338,6 +338,15 @@ const projects: Project[] = [
         ]
     },
     {
+        title: "addae-short",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/addae-short/0.jpg" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/nhRj6aaWHeY?si=0xMsHI0vJ_c9dtaw&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
+        
+        ]
+    },
+    {
         title: "FU",
         category: "character",
         media: [
@@ -435,12 +444,20 @@ const projects: Project[] = [
         ]
     },
      {
+        title: "flats",
+        category: "game",
+        media: [
+        { type: "image", src: "/proj/flat/0.jpg" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/BTydIk_A-F8?si=SBmXwVSs2DJuk4v3&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
+        
+        ]
+    },
+     {
         title: "black",
         category: "game",
         media: [
         { type: "image", src: "/proj/black/0.png" },
         { type: "vimeo", src:"https://player.vimeo.com/video/1202126917?h=99d5775d35&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201709482?h=3ba0e2b35d&autoplay=1&loop=1&muted=1&background=1" },
         { type: "image", src: "/proj/black/2.png" },
         { type: "image", src: "/proj/black/1.png" },
         { type: "image", src: "/proj/black/3.png" },
