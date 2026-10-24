@@ -443,7 +443,7 @@ const projects: Project[] = [
         { type: "image", src: "/proj/cardgame/2.png" },
         ]
     },
-     {
+    {
         title: "flats",
         category: "game",
         media: [
@@ -473,6 +473,25 @@ const projects: Project[] = [
         { type: "image", src: "/proj/addae/1.jpg" },
         { type: "image", src: "/proj/addae/2.jpg" },
         { type: "image", src: "/proj/addae/3.jpg" },
+        ]
+    },
+     {
+        title: "painting-polygons",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/painting-polygons/0.jpg" },
+        { type: "image", src: "/proj/painting-polygons/1.jpg" },
+        { type: "image", src: "/proj/painting-polygons/2.png" },
+        { type: "image", src: "/proj/painting-polygons/3.png" },
+        { type: "image", src: "/proj/painting-polygons/4.png" },
+        ]
+    },
+    {
+        title: "besquared",
+        category: "game",
+        media: [
+        { type: "image", src: "/proj/besquared/0.jpg" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/o3ry96WW-Ho?si=iOigDSkghG9CZLbJ&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
         ]
     },
     
