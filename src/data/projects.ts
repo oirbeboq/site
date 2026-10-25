@@ -419,6 +419,19 @@ const projects: Project[] = [
         ]
     },
     {
+        title: "runner",
+        category: "game",
+        media: [
+        { type: "image", src: "/proj/runner/0.png" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/8fr9oLg9w1k?si=NuV3qxq8FiHYgshh&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/Q_5VvAEEjWo?si=4NHDhucn6pbjRh63&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
+        { type: "image", src: "/proj/runner/ab.png" },
+        { type: "image", src: "/proj/runner/abc.png" },
+        { type: "image", src: "/proj/runner/a.png" },
+        { type: "image", src: "/proj/runner/b.png" },
+        ]
+    },
+    {
         title: "Walk Cycle",
         category: "animation",
         media: [
