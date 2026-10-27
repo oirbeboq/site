@@ -141,7 +141,8 @@ const projects: Project[] = [
         category: "animation",
         media: [
         { type: "image", src: "/proj/2b/0.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1239923111?badge=0&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1239923111?&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1240021248?&autoplay=1&loop=1&muted=1&background=1"},
         ]
     },
     
