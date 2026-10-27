@@ -96,7 +96,6 @@ const projects: Project[] = [
         { type: "image", src: "/proj/raph/0.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1239683712?badge=0&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1239683713?badge=0&autoplay=1&loop=1&muted=1&background=1"},
-       
         ]
     },
     {
@@ -137,6 +136,14 @@ const projects: Project[] = [
         { type: "vimeo", src: "https://player.vimeo.com/video/1200482833?h=8ba27acf90&autoplay=1&loop=1&muted=1&background=1" },
         ]
     },
+    {
+        title: "2b",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/2b/0.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1239923111?badge=0&autoplay=1&loop=1&muted=1&background=1"},
+        ]
+    },
     
      {
         title: "striker",
@@ -150,6 +157,7 @@ const projects: Project[] = [
         
         ]
     },
+    
     {
         title: "anger",
         category: "animation",
