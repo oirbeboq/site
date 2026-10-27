@@ -45,14 +45,21 @@ const projects: Project[] = [
   
         ]
     },
-    {
-        title: "anger",
+     {
+        title: "Noise Room",
         category: "animation",
         media: [
-        { type: "image", src: "/proj/anger/0.png" },
-        { type: "vimeo", src: "https://www.youtube.com/embed/fwLMiFmM5Q8?si=77CbkGBjbph7_EgR&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
+        { type: "image", src: "/proj/noise-room/0.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200163442?h=31d49aee7&autoplay=1&loop=1&muted=1&background=1" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200179841?h=1b9c26aff7&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1202839681?h=499cd0867e&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "image", src: "/proj/noise-room/1.png" },
+        { type: "image", src: "/proj/noise-room/2.png" },
+        { type: "image", src: "/proj/noise-room/3.png" },
+       
         ]
     },
+    
     {
         title:"judyhopp",
         category: "animation",
@@ -62,18 +69,6 @@ const projects: Project[] = [
         ]
     },
     
-     {
-        title: "striker",
-        category: "character",
-        media: [
-        { type: "image", src: "/proj/striker/0.png" },
-        { type: "image", src: "/proj/striker/1.png" },
-        { type: "image", src: "/proj/striker/3.png" },
-        { type: "image", src: "/proj/striker/2.png" },
-        { type: "image", src: "/proj/striker/4.png" },
-        
-        ]
-    },
      {
         title: "Bywi Uniforum",
         category: "animation",
@@ -94,12 +89,14 @@ const projects: Project[] = [
         { type: "image", src: "/proj/bywin-uniforum/10.png" },
         ]
     },
-    {
-        title: "playerone",
-        category: "character",
+     {
+        title: "raph",
+        category: "animation",
         media: [
-        { type: "image", src: "/proj/playerone/0.png" },
-        { type: "image", src: "/proj/playerone/1.png" }
+        { type: "image", src: "/proj/raph/0.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1239683712?badge=0&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1239683713?badge=0&autoplay=1&loop=1&muted=1&background=1"},
+       
         ]
     },
     {
@@ -120,13 +117,45 @@ const projects: Project[] = [
         ]
     },
     {
-        title: "raph",
+        title: "playerone",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/playerone/0.png" },
+        { type: "image", src: "/proj/playerone/1.png" }
+        ]
+    },
+    {
+        title: "Sou Can Fly",
         category: "animation",
         media: [
-        { type: "image", src: "/proj/raph/0.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1239683712?badge=0&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1239683713?badge=0&autoplay=1&loop=1&muted=1&background=1"},
-       
+        { type: "image", src: "/proj/canfly/0.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200480356?h=b079d8d77d&autoplay=1&loop=1&muted=1&background=1"  },
+        { type: "image", src: "/proj/canfly/11.png" },
+        { type: "image", src: "/proj/canfly/22.png" },
+        { type: "image", src: "/proj/canfly/1.jpg" },
+        { type: "image", src: "/proj/canfly/2.jpg" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1200482833?h=8ba27acf90&autoplay=1&loop=1&muted=1&background=1" },
+        ]
+    },
+    
+     {
+        title: "striker",
+        category: "character",
+        media: [
+        { type: "image", src: "/proj/striker/0.png" },
+        { type: "image", src: "/proj/striker/1.png" },
+        { type: "image", src: "/proj/striker/3.png" },
+        { type: "image", src: "/proj/striker/2.png" },
+        { type: "image", src: "/proj/striker/4.png" },
+        
+        ]
+    },
+    {
+        title: "anger",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/anger/0.png" },
+        { type: "vimeo", src: "https://www.youtube.com/embed/fwLMiFmM5Q8?si=77CbkGBjbph7_EgR&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
         ]
     },
       {
@@ -140,20 +169,7 @@ const projects: Project[] = [
        
         ]
     },
-    {
-        title: "Noise Room",
-        category: "animation",
-        media: [
-        { type: "image", src: "/proj/noise-room/0.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200163442?h=31d49aee7&autoplay=1&loop=1&muted=1&background=1" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200179841?h=1b9c26aff7&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1202839681?h=499cd0867e&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "image", src: "/proj/noise-room/1.png" },
-        { type: "image", src: "/proj/noise-room/2.png" },
-        { type: "image", src: "/proj/noise-room/3.png" },
-       
-        ]
-    },
+   
     /*
     {
         title:"walk cycle",
@@ -261,19 +277,7 @@ const projects: Project[] = [
         { type: "image", src: "/proj/heavy-tank/3.png" },
         ]
     },
-    {
-        title: "Sou Can Fly",
-        category: "animation",
-        media: [
-        { type: "image", src: "/proj/canfly/0.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200480356?h=b079d8d77d&autoplay=1&loop=1&muted=1&background=1"  },
-        { type: "image", src: "/proj/canfly/11.png" },
-        { type: "image", src: "/proj/canfly/22.png" },
-        { type: "image", src: "/proj/canfly/1.jpg" },
-        { type: "image", src: "/proj/canfly/2.jpg" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1200482833?h=8ba27acf90&autoplay=1&loop=1&muted=1&background=1" },
-        ]
-    },
+   
     {
         title: "Shams Song",
         category: "animation",
