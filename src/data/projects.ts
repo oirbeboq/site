@@ -167,6 +167,14 @@ const projects: Project[] = [
         { type: "vimeo", src: "https://www.youtube.com/embed/fwLMiFmM5Q8?si=77CbkGBjbph7_EgR&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
         ]
     },
+       {
+        title: "scout",
+        category: "animation",
+        media: [
+        { type: "image", src: "/proj/scout/0.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1241101082?&autoplay=1&loop=1&muted=1&background=1"},
+        ]
+    },
       {
         title: "fight",
         category: "character",
@@ -179,14 +187,6 @@ const projects: Project[] = [
         ]
     },
    
-    /*
-    {
-        title:"walk cycle",
-        category: "animation",
-        media: [
-            {type: "vimeo", src: ""}
-        ]
-    },*/
     {
         title: "Klara",
         category: "character",
