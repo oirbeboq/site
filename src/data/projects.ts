@@ -173,6 +173,7 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/scout/0.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1241101082?&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1241119934?autoplay=1&loop=1&muted=1&background=1"}
         ]
     },
       {
