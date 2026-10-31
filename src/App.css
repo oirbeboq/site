@@ -313,40 +313,27 @@ body {
   background-color: black;
 }
 
-.media-wrapper{
-  /*border-radius: 12px;*/
+.media-wrapper {
+  /* width is the driver: 2592px max (1080 * 12/5), shrinks to 85vw */
+  width: min(2592px, 85vw);
+  aspect-ratio: 12 / 5;
+  height: auto;            /* computed from width */
+  max-height: none;        /* any max-height will break the ratio */
   overflow: hidden;
-  /*aspect-ratio: 16/9;*/
   display: flex;
   justify-content: center;
   align-items: center;
-  /*border: 2px blue dashed;*/
-  width: 85vw;
-  height: 75vh;
-  max-height:80vh;
-  object-fit: contain;
+  border: 2px blue dashed;
 }
 
 .media-wrapper img,
-.media-wrapper video{
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: fill;
-  display: block;
-
-}
-
-
-.vimeo-frame{
-  width: min(100%, calc(75vh * 16/9));
-  height: auto;
-  aspect-ratio: 16/9;
+.media-wrapper video,
+.vimeo-frame {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;       /* or contain */
   border: none;
   display: block;
-  /*border: 3px darkorange dashed;*/
-  
 }
 
 .controls{
@@ -577,6 +564,26 @@ ul{
 
 
 @media (max-width: 767px){
+  .media-wrapper {
+    width: 95vw;
+    height: auto;
+    aspect-ratio: auto;
+    max-height: 85dvh;
+  }
+
+  .media-wrapper img,
+  .media-wrapper video {
+    width: 100%;
+    height: auto;
+    max-height: 85dvh;
+    object-fit: contain;
+  }
+
+  .vimeo-frame {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
   .archive-page-main-container {
     display: flex;
     flex-direction: column;

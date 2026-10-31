@@ -26,10 +26,9 @@ const projects: Project[] = [
         category: "animation",
         media: [
         { type: "image", src: "/proj/spiderman/0.png" },
-        { type: "vimeo", src: "https://www.youtube.com/embed/nQik5z0JDxE?si=W0i7st5uF67Alo26&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
-        { type: "vimeo", src: "https://www.youtube.com/embed/sTz6UAZbKJs?si=ojm_UE6Fr3RJo_mi&autoplay=1&loop=1&mute=1&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
-        { type: "vimeo", src: "https://www.youtube.com/embed/6wL-f5E1nQI?si=Y12FcNHhiJjERkJ1&autoplay=1&loop=1&mute=1&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
-        { type: "vimeo", src: "https://www.youtube.com/embed/99QQ9anYQfI?si=q3Zal0qhvYJvDyhF&autoplay=1&loop=1&mute=1&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1241807280?autoplay=1&loop=1&muted=1&background=1" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1241807782?autoplay=1&loop=1&muted=1&background=1" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1241808350?autoplay=1&loop=1&muted=1&background=1" },
         ]
     },
     {
@@ -37,11 +36,11 @@ const projects: Project[] = [
         category: "character",
         media: [
         { type: "image", src: "/proj/beelzebub/0.png" },
-        { type: "image", src: "/proj/beelzebub/00.png"},
-        { type: "image", src: "/proj/beelzebub/1.png"},
-        { type: "image", src: "/proj/beelzebub/2.jpg"},
-        { type: "image", src: "/proj/beelzebub/3.jpg"},
-        { type: "image", src: "/proj/beelzebub/4.jpg"},
+        { type: "image", src: "/proj/beelzebub/000.png"},
+        { type: "image", src: "/proj/beelzebub/111.png"},
+        { type: "image", src: "/proj/beelzebub/222.png"},
+        { type: "image", src: "/proj/beelzebub/333.png"},
+        { type: "image", src: "/proj/beelzebub/444.png"},
   
         ]
     },
@@ -59,16 +58,15 @@ const projects: Project[] = [
        
         ]
     },
-    
-    {
-        title:"judyhopp",
+     {
+        title: "scout",
         category: "animation",
         media: [
-            {type:"image", src: "/proj/judyhopp/0.png"},
-            {type:"vimeo", src: "https://www.youtube.com/embed/9CTe5uW5MYs?si=jN8UAX-fXOHEi-Fi&autoplay=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0"}
+        { type: "image", src: "/proj/scout/0.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1241101082?&autoplay=1&loop=1&muted=1&background=1"},
+        { type: "vimeo", src: "https://player.vimeo.com/video/1241119934?autoplay=1&loop=1&muted=1&background=1"}
         ]
     },
-    
      {
         title: "Bywi Uniforum",
         category: "animation",
@@ -129,10 +127,10 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/canfly/0.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1200480356?h=b079d8d77d&autoplay=1&loop=1&muted=1&background=1"  },
-        { type: "image", src: "/proj/canfly/11.png" },
-        { type: "image", src: "/proj/canfly/22.png" },
-        { type: "image", src: "/proj/canfly/1.jpg" },
-        { type: "image", src: "/proj/canfly/2.jpg" },
+        { type: "image", src: "/proj/canfly/111.png" },
+        { type: "image", src: "/proj/canfly/222.png" },
+        { type: "image", src: "/proj/canfly/333.png" },
+        { type: "image", src: "/proj/canfly/444.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1200482833?h=8ba27acf90&autoplay=1&loop=1&muted=1&background=1" },
         ]
     },
@@ -167,13 +165,12 @@ const projects: Project[] = [
         { type: "vimeo", src: "https://www.youtube.com/embed/fwLMiFmM5Q8?si=77CbkGBjbph7_EgR&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" },
         ]
     },
-       {
-        title: "scout",
+    {
+        title:"judyhopp",
         category: "animation",
         media: [
-        { type: "image", src: "/proj/scout/0.png" },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1241101082?&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1241119934?autoplay=1&loop=1&muted=1&background=1"}
+            {type:"image", src: "/proj/judyhopp/0.png"},
+            {type:"vimeo", src: "https://player.vimeo.com/video/1241808890?autoplay=1&loop=1&muted=1&background=1"}
         ]
     },
       {
@@ -250,10 +247,10 @@ const projects: Project[] = [
         category: "character",
         media: [
         { type: "image", src: "/proj/ball-hog/0.jpg" },
-        { type: "image", src: "/proj/ball-hog/1.jpg" },
-        { type: "image", src: "/proj/ball-hog/2.jpg" },
-        { type: "image", src: "/proj/ball-hog/3.jpg" },
-        { type: "image", src: "/proj/ball-hog/4.png" },
+        { type: "image", src: "/proj/ball-hog/111.png" },
+        { type: "image", src: "/proj/ball-hog/222.png" },
+        { type: "image", src: "/proj/ball-hog/333.png" },
+        { type: "image", src: "/proj/ball-hog/444.png" },
         ]
     },
     
@@ -262,11 +259,11 @@ const projects: Project[] = [
         category: "character",
         media: [
         { type: "image", src: "/proj/warriors/0.png" },
-        { type: "image", src: "/proj/warriors/1.png" },
-        { type: "image", src: "/proj/warriors/22.png" },
-        { type: "image", src: "/proj/warriors/33.png" },
-        { type: "image", src: "/proj/warriors/11.png" },
-        { type: "image", src: "/proj/warriors/44.png" },
+        { type: "image", src: "/proj/warriors/111.png"},
+        { type: "image", src: "/proj/warriors/666.png"},
+        { type: "image", src: "/proj/warriors/222.png"},
+        { type: "image", src: "/proj/warriors/333.png"},
+        { type: "image", src: "/proj/warriors/444.png"},
     
         
         ]
@@ -279,12 +276,9 @@ const projects: Project[] = [
         { type: "vimeo", src: "https://player.vimeo.com/video/1201552257?h=802ac53158&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1201552256?h=b1a05acb5f&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1201552255?h=133ed8b17a&autoplay=1&loop=1&muted=1&background=1" },
-        { type: "image", src: "/proj/heavy-tank/01.png" },
-        { type: "image", src: "/proj/heavy-tank/02.png" },
-        { type: "image", src: "/proj/heavy-tank/03.png" },
-        { type: "image", src: "/proj/heavy-tank/1.png" },
-        { type: "image", src: "/proj/heavy-tank/2.png" },
-        { type: "image", src: "/proj/heavy-tank/3.png" },
+        { type: "image", src: "/proj/heavy-tank/111.png" },
+        { type: "image", src: "/proj/heavy-tank/222.png" },
+        { type: "image", src: "/proj/heavy-tank/333.png" },
         ]
     },
    
@@ -319,7 +313,7 @@ const projects: Project[] = [
         category: "character",
         media: [
         { type: "image", src: "/proj/flyers/0.png" },
-        { type: "image", src: "/proj/flyers/1.webp" },
+        { type: "image", src: "/proj/flyers/111.png" },
         { type: "image", src: "/proj/flyers/2.webp" },
         ]
     },
@@ -475,7 +469,7 @@ const projects: Project[] = [
         { type: "vimeo", src: "https://player.vimeo.com/video/1202099432?&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1202109944?&autoplay=1&loop=1&muted=1&background=1"},
         { type: "image", src: "/proj/breaklikebaby/1.png" },
-        { type: "image", src: "/proj/breaklikebaby/2.png" },
+        { type: "image", src: "/proj/breaklikebaby/22.png" },
        
         ]
     },
