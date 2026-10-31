@@ -323,7 +323,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px blue dashed;
 }
 
 .media-wrapper img,
