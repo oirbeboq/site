@@ -413,10 +413,17 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/skame/00.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1200220854?h=3e57e649bc&autoplay=1&loop=1&muted=1&background=1"  },
-        { type: "vimeo", src: "https://player.vimeo.com/video/1201966980?h=55d0a5c195&autoplay=1&loop=1&muted=1&background=1"  },
+        { type: "image", src: "/proj/skame/111.png" },
+        { type: "image", src: "/proj/skame/222.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1241847797?&autoplay=1&loop=1&muted=1&background=1"},
+         { type: "vimeo", src: "https://player.vimeo.com/video/1241851497??&autoplay=1&loop=1&muted=1&background=1"},
         { type: "image", src: "/proj/skame/3.png" },
         { type: "image", src: "/proj/skame/2.png" },
+        { type: "image", src: "/proj/skame/333.png" },
+        { type: "image", src: "/proj/skame/444.png" },
         { type: "image", src: "/proj/skame/4.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1241848087?&autoplay=1&loop=1&muted=1&background=1"},
+
         ]
     },
     {
