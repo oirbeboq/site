@@ -563,6 +563,36 @@ ul{
 
 
 @media (max-width: 767px){
+    .modal {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;      /* not center, so the top is reachable */
+    overflow-y: auto;             /* the modal scrolls */
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain; /* stops the page behind from scrolling */
+  }
+
+  .modal-content {
+    margin: auto 0;               /* still centers vertically when content is short */
+    max-height: none;             /* remove the 95vh cap */
+    width: min(1200px, 95vw);
+    padding: 1rem 0 3rem;         /* breathing room at top and bottom */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    overflow: visible;
+  }
+
+  .media-wrapper {
+    flex-shrink: 0;               /* keeps column flexbox from squashing each item */
+    width: min(2592px, 95vw);
+    aspect-ratio: 12 / 5;
+    height: auto;
+    max-height: none;
+  }
   .media-wrapper {
     width: 95vw;
     height: auto;
