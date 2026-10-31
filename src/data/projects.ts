@@ -464,11 +464,13 @@ const projects: Project[] = [
         media: [
         { type: "image", src: "/proj/breaklikebaby/00.png" },
         { type: "vimeo", src: "https://www.youtube.com/embed/D4pU74SOIJ0?si=5Qw9nbEHXOuNCFlA&autoplay=1&mute=1&loop=1&&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0"},
+        { type: "image", src: "/proj/breaklikebaby/111.png" },
+        { type: "image", src: "/proj/breaklikebaby/222.png" },
+        { type: "image", src: "/proj/breaklikebaby/333.png" },
         { type: "vimeo", src: "https://player.vimeo.com/video/1200216293?h=09337aeeca&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1202099376?&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1202099432?&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "vimeo", src: "https://player.vimeo.com/video/1202109944?&autoplay=1&loop=1&muted=1&background=1"},
-        { type: "image", src: "/proj/breaklikebaby/1.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1241822112?&autoplay=1&loop=1&muted=1&background=1"},
         { type: "image", src: "/proj/breaklikebaby/22.png" },
        
         ]
