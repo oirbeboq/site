@@ -479,6 +479,7 @@ const projects: Project[] = [
         { type: "vimeo", src: "https://player.vimeo.com/video/1202099432?&autoplay=1&loop=1&muted=1&background=1"},
         { type: "vimeo", src: "https://player.vimeo.com/video/1241822112?&autoplay=1&loop=1&muted=1&background=1"},
         { type: "image", src: "/proj/breaklikebaby/22.png" },
+        { type: "vimeo", src: "https://player.vimeo.com/video/1242174385?&autoplay=1&loop=1&muted=1&background=1"}
        
         ]
     },
